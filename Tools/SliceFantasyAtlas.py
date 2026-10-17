@@ -1,11 +1,11 @@
 """Slice imagegen atlases by connected alpha silhouettes, preserving transparent gutters."""
 from pathlib import Path
 from collections import deque
-import shutil, uuid, re
+import shutil, uuid, re, os
 import numpy as np
 from PIL import Image
 ROOT=Path(__file__).resolve().parents[1]/'Assets'/'PKBall'
-GEN=Path(r'C:\Users\USER\.codex\generated_images\01a0e388-fc86-78e1-83a0-c4fa2037a274')
+GEN=Path(os.environ.get('PKBALL_ART_SOURCE', Path(__file__).resolve().parents[1]/'ArtSource'/'FantasyAtlas'))
 def slice_sheet(source, target, cols, rows, names, character=False):
     path=ROOT/'Art'/'Generated'/target
     if not path.exists(): path=GEN/source
