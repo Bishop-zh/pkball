@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: slime_core
+  m_EditorClassIdentifier: 
+  itemId: "slime_core"
+  displayName: "\u53f2\u83b1\u59c6\u6838\u5fc3"
+  description: "\u516b\u56e2\u53f2\u83b1\u59c6\u7684\u7edf\u4e00\u610f\u8bc6\u3002\u56fa\u5b9a\u56db\u7ea7\uff1a\u6bcf4\u79d2\u5148\u589e\u52a0\u672c\u573a\u6700\u5927\u751f\u547d2%\uff0c\u518d\u9020\u6210\u81ea\u8eab\u6700\u5927\u751f\u547d6%\u7684\u4f24\u5bb3\u3002"
+  iconId: "slime_core"
+  generatedItemId: ""
+  kind: 0
+  rarity: 3
+  minShopDay: 1
+  shopWeight: 3
+  price: 30
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  injectionAmount: 10.0
+  productionInterval: 0
+  activationCooldown: 4
+  injectionStat: 0
+  randomPotionProducer: 0
+  effects:
+  - id: "f4fc1c40d2934ae18ffea682754d1868"
+    kind: 11
+    amount: 0.02
+    levelAmounts:
+    - 0.02
+    - 0.02
+    - 0.02
+    - 0.02
+    levelGrowthAmounts: []
+    growthPerActivation: 0
+    trigger: 0
+    triggerCooldown: 1
+    matchTag: ""
+    criticalChance: 0
+    criticalMultiplier: 2
+  - id: "0625e45874134b3cb62f218e6104f51b"
+    kind: 12
+    amount: 0.06
+    levelAmounts:
+    - 0.06
+    - 0.06
+    - 0.06
+    - 0.06
+    levelGrowthAmounts: []
+    growthPerActivation: 0
+    trigger: 0
+    triggerCooldown: 1
+    matchTag: ""
+    criticalChance: 0
+    criticalMultiplier: 2
+  tags:
+  - "\u751f\u547d"
+  - "\u53f2\u83b1\u59c6"
+  - "\u9996\u9886"
+  potionLifetime: 0
+  releaseSoundId: ""
+  hitSoundId: ""
+  releaseVolume: 1
+  hitVolume: 1
+  acquisition: 1
+  bossItem: 1
+  bossExclusive: 0
+  fixedLevel: 4
+  animation:
+    preset: 15
+    tint:
+      r: 0.4
+      g: 1
+      b: 0.35
+      a: 1
+    duration: 0.85
+    scale: 1.5
+    intensity: 1.0
+    count: 4
+    showIcon: 1
+    rotation: -8
+  weapon: {fileID: 0}

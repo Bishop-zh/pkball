@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: master_flame
+  m_EditorClassIdentifier: 
+  itemId: "master_flame"
+  displayName: "宗师火灯"
+  description: "周期激活；详情显示分类与效果。"
+  iconId: "master_flame"
+  kind: 0
+  rarity: 2
+  price: 55
+  minShopDay: 4
+  shopWeight: 1
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  activationCooldown: 6
+  productionInterval: 0
+  randomPotionProducer: 0
+  effects:
+  - id: "effect:0:Burn"
+    kind: 4
+    amount: 4
+    growthPerActivation: 0
+    matchTag: ""
+    levelAmounts:
+    - 4
+    - 6.4
+    - 9.6
+    - 14.4
+    levelGrowthAmounts:
+    - 0
+    - 0.0
+    - 0.0
+    - 0.0
+  - id: "effect:1:MasterCooldown"
+    kind: 6
+    amount: 0.0
+    growthPerActivation: 0.0
+    matchTag: "火"
+  tags:
+  - "灯"
+  - "火"
+  - "宗师"
+  weapon: {fileID: 0}
+  animation:
+    preset: 12
+    tint: {r: 1, g: 0.32, b: 0.08, a: 1}
+    duration: 0.5
+    scale: 1
+    intensity: 1
+    count: 1
+    showIcon: 1
+    rotation: -8

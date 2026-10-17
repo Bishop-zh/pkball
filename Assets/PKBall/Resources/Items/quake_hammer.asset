@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: quake_hammer
+  m_EditorClassIdentifier: 
+  itemId: quake_hammer
+  displayName: "\u9707\u8361\u6218\u9524"
+  description: "\u4E3B\u64AD\u8868\u73B0\u539F\u578B\uFF1B\u6CBF\u7528\u73B0\u6709\u56FE\u6807\uFF0C\u53EF\u72EC\u7ACB\u66FF\u6362\u7D20\u6750\u3002"
+  iconId: hammer
+  kind: 0
+  rarity: 1
+  minShopDay: 1
+  shopWeight: 3
+  price: 18
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  weapon: {fileID: 11400000, guid: 090ca84ef3c75854481d3e0b8fa3453c, type: 2}
+  injectionStat: 0
+  injectionAmount: 10
+  generatedItemId: 
+  randomPotionProducer: 0
+  productionInterval: 0
+  activationCooldown: 4
+  effects: []
+  tags:
+  - "\u9524"
+  - "\u7269\u7406"
+  potionLifetime: 0
+  animation:
+    preset: 4
+    tint: {r: 1, g: 0.74, b: 0.35, a: 1}
+    duration: 0.58
+    scale: 1.08
+    intensity: 1.1
+    count: 2
+    showIcon: 1
+    rotation: 0

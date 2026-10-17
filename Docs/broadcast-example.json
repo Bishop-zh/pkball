@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "title": "剑阵与药剂",
+  "left": {
+    "name": "剑阵战士",
+    "visualId": "player_warrior",
+    "health": 3000,
+    "speed": 120,
+    "shield": 100,
+    "damageBonus": 0,
+    "damageReduction": 0,
+    "slots": [
+      {
+        "itemId": "sword_rain",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "apprentice_shield",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "quake_hammer",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      }
+    ]
+  },
+  "right": {
+    "name": "毒素法师",
+    "visualId": "player_mage",
+    "health": 3000,
+    "speed": 110,
+    "shield": 150,
+    "damageBonus": 0,
+    "damageReduction": 0,
+    "slots": [
+      {
+        "itemId": "prism_laser",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "apprentice_venom",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "apprentice_flame",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      },
+      {
+        "itemId": "",
+        "level": 1,
+        "damage": -1,
+        "cooldown": -1,
+        "range": -1,
+        "visualScale": -1,
+        "effectMultiplier": 1,
+        "healthBonus": -1,
+        "speedBonus": -1
+      }
+    ]
+  }
+}

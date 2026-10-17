@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: holy_bell
+  m_EditorClassIdentifier: 
+  itemId: "holy_bell"
+  displayName: "\u5723\u949f"
+  description: "\u516d\u89d2\u8272\u88c5\u5907\u521d\u7248\uff1b\u91ce\u5916\u6389\u843d\u4e0e\u9996\u9886\u8eab\u4efd\u5206\u522b\u914d\u7f6e\u3002"
+  iconId: "holy_bell"
+  generatedItemId: ""
+  kind: 0
+  rarity: 1
+  minShopDay: 1
+  shopWeight: 3
+  price: 16
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  injectionAmount: 10.0
+  productionInterval: 0
+  activationCooldown: 5
+  injectionStat: 0
+  randomPotionProducer: 0
+  effects:
+  - id: "3b0e7d05e47542d8b2ab7d009cc41892"
+    kind: 1
+    amount: 40
+    levelAmounts:
+    - 40
+    - 80
+    - 160
+    - 320
+    levelGrowthAmounts:
+    - 1
+    - 2
+    - 4
+    - 12
+    growthPerActivation: 0
+    trigger: 0
+    triggerCooldown: 1
+    matchTag: ""
+    criticalChance: 0
+    criticalMultiplier: 2
+  tags:
+  - "\u76fe"
+  - "\u5723\u5149"
+  potionLifetime: 0
+  releaseSoundId: ""
+  hitSoundId: ""
+  releaseVolume: 1
+  hitVolume: 1
+  acquisition: 0
+  bossItem: 0
+  bossExclusive: 0
+  fixedLevel: 0
+  weapon: {fileID: 0}
+  animation:
+    preset: 8
+    tint: {r: 1, g: 0.84, b: 0.45, a: 1}
+    duration: 0.5
+    scale: 1
+    intensity: 1
+    count: 1
+    showIcon: 1
+    rotation: -8

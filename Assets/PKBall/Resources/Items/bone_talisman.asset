@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: bone_talisman
+  m_EditorClassIdentifier: 
+  itemId: bone_talisman
+  displayName: "\u9AA8\u73E0\u62A4\u7B26"
+  description: "\u602A\u7269\u7279\u8272\u88C5\u5907\uFF0C\u73A9\u5BB6\u4E5F\u53EF\u88C5\u5907\u3002\u767E\u5206\u6BD4\u4E0E\u6301\u7EED\u65F6\u95F4\u4E0D\u968F\u88C5\u5907\u7B49\u7EA7\u7FFB\u500D\u3002"
+  iconId: bone_talisman
+  kind: 0
+  rarity: 0
+  minShopDay: 1
+  shopWeight: 3
+  price: 8
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  weapon: {fileID: 0}
+  releaseSoundId: poison_hit
+  hitSoundId: none
+  releaseVolume: 1
+  hitVolume: 1
+  hitVisual: 0
+  injectionStat: 0
+  injectionAmount: 10
+  generatedItemId: 
+  randomPotionProducer: 0
+  productionInterval: 0
+  activationCooldown: 6
+  effects:
+  - id: effect:0:Shield
+    kind: 1
+    amount: 8
+    growthPerActivation: 0
+    matchTag: 
+    criticalChance: 0
+    criticalMultiplier: 0
+  tags:
+  - "\u62A4\u7B26"
+  - "\u62A4\u76FE"
+  - "\u6B7B\u795E"
+  potionLifetime: 0
+  animation:
+    preset: 9
+    tint: {r: 0.42, g: 0.8, b: 1, a: 1}
+    duration: 0.66
+    scale: 1.08
+    intensity: 1.2
+    count: 3
+    showIcon: 1
+    rotation: 8

@@ -1,0 +1,6393 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "assetId": "afterburner",
+      "item": {
+        "itemId": "afterburner",
+        "displayName": "推进器",
+        "description": "速度与撞击增幅",
+        "iconId": "afterburner",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 14,
+        "healthBonus": 0,
+        "speedBonus": 10,
+        "impactBonus": 0.05000000074505806,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "装置",
+          "速度"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 5,
+          "tint": {
+            "r": 0.42,
+            "g": 0.8,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.0,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "apprentice_flame",
+      "item": {
+        "itemId": "apprentice_flame",
+        "displayName": "学徒火灯",
+        "description": "释放时生效；成长保存在装备实例中。",
+        "iconId": "apprentice_flame",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 2,
+        "shopWeight": 3,
+        "price": 18,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:Burn",
+            "kind": 4,
+            "amount": 3,
+            "growthPerActivation": 0.05,
+            "matchTag": "",
+            "levelAmounts": [
+              3,
+              4.8,
+              7.2,
+              10.8
+            ],
+            "levelGrowthAmounts": [
+              0.05,
+              0.08,
+              0.12,
+              0.18
+            ]
+          }
+        ],
+        "tags": [
+          "灯",
+          "火",
+          "学徒"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 12,
+          "tint": {
+            "r": 1.0,
+            "g": 0.32,
+            "b": 0.08,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.08,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "apprentice_shield",
+      "item": {
+        "itemId": "apprentice_shield",
+        "displayName": "学徒盾",
+        "description": "释放时生效；成长保存在装备实例中。",
+        "iconId": "apprentice_shield",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 10,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:Shield",
+            "kind": 1,
+            "amount": 36,
+            "growthPerActivation": 1,
+            "matchTag": ""
+          }
+        ],
+        "tags": [
+          "盾",
+          "护盾",
+          "学徒"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 9,
+          "tint": {
+            "r": 0.42,
+            "g": 0.8,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.16,
+          "intensity": 1.2,
+          "count": 3,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "apprentice_spring",
+      "item": {
+        "itemId": "apprentice_spring",
+        "displayName": "学徒泉石",
+        "description": "释放时生效；成长保存在装备实例中。",
+        "iconId": "apprentice_spring",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 12,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:Regeneration",
+            "kind": 5,
+            "amount": 0.25,
+            "growthPerActivation": 0.02,
+            "matchTag": ""
+          }
+        ],
+        "tags": [
+          "泉石",
+          "再生",
+          "学徒"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 10,
+          "tint": {
+            "r": 0.35,
+            "g": 1,
+            "b": 0.65,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.24,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "apprentice_sword",
+      "item": {
+        "itemId": "apprentice_sword",
+        "displayName": "学徒剑",
+        "description": "释放时生效；成长保存在装备实例中。",
+        "iconId": "apprentice_sword",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 10,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 3.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "剑",
+          "物理",
+          "学徒"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 2,
+          "tint": {
+            "r": 0.755,
+            "g": 0.88,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.0,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "学徒剑",
+        "kind": 0,
+        "attackShape": 1,
+        "cooldown": 3.0,
+        "damage": 21,
+        "range": 0.6499999761581421,
+        "projectileSpeed": 14.0,
+        "meleeHalfAngle": 180.0,
+        "knockbackImpulse": 0.6000000238418579,
+        "impactMultiplier": 1.0,
+        "growthPerActivation": 0.6,
+        "hitDelay": 0.14000000059604645,
+        "animationDuration": 0.3400000035762787,
+        "visualScale": 1.0,
+        "modifiesImpact": false,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.85,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "apprentice_venom",
+      "item": {
+        "itemId": "apprentice_venom",
+        "displayName": "学徒毒典",
+        "description": "释放时生效；成长保存在装备实例中。",
+        "iconId": "apprentice_venom",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 2,
+        "shopWeight": 3,
+        "price": 18,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:Poison",
+            "kind": 3,
+            "amount": 0.45,
+            "growthPerActivation": 0.025,
+            "matchTag": ""
+          }
+        ],
+        "tags": [
+          "法典",
+          "毒",
+          "学徒"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 11,
+          "tint": {
+            "r": 0.72,
+            "g": 0.92,
+            "b": 0.22,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.08,
+          "intensity": 1.2,
+          "count": 3,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "arc_cannon",
+      "item": {
+        "itemId": "arc_cannon",
+        "displayName": "电弧炮",
+        "description": "远程追踪；高级武器预留 3D 模型",
+        "iconId": "arc_cannon",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 2,
+        "minShopDay": 7,
+        "shopWeight": 1,
+        "price": 26,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "炮",
+          "雷电"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 5,
+          "tint": {
+            "r": 0.42,
+            "g": 0.8,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.16,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "电弧炮",
+        "kind": 1,
+        "attackShape": 1,
+        "cooldown": 5.0,
+        "damage": 40,
+        "range": 14.0,
+        "projectileSpeed": 10.0,
+        "meleeHalfAngle": 70.0,
+        "knockbackImpulse": 0.5,
+        "impactMultiplier": 1.0,
+        "growthPerActivation": 0,
+        "hitDelay": 0.11999999731779099,
+        "animationDuration": 0.30000001192092896,
+        "visualScale": 1.0,
+        "modifiesImpact": false,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.65,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "attack_potion",
+      "item": {
+        "itemId": "attack_potion",
+        "displayName": "强攻药水",
+        "description": "一次性使用；下一场实际战斗生效，战后清除。",
+        "iconId": "strength_injector",
+        "generatedItemId": "",
+        "kind": 1,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 1,
+        "price": 5,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 0.15000000596046448,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 6,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "药水",
+          "短效"
+        ],
+        "potionLifetime": 1,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 6,
+          "tint": {
+            "r": 1.0,
+            "g": 0.58,
+            "b": 0.75,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.24,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "boots",
+      "item": {
+        "itemId": "boots",
+        "displayName": "疾风轮",
+        "description": "提高速度；相邻冲刺矛时命中获得短加速",
+        "iconId": "boots",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 10,
+        "healthBonus": 0,
+        "speedBonus": 8,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "轮",
+          "速度"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 7,
+          "tint": {
+            "r": 0.47000000000000003,
+            "g": 0.95,
+            "b": 0.85,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.0,
+          "intensity": 1.2,
+          "count": 3,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "break_core",
+      "item": {
+        "itemId": "break_core",
+        "displayName": "突破核心",
+        "description": "将一件三级装备升到四级",
+        "iconId": "break_core",
+        "generatedItemId": "",
+        "kind": 2,
+        "rarity": 2,
+        "minShopDay": 5,
+        "shopWeight": 1,
+        "price": 25,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "材料",
+          "突破"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 8,
+          "tint": {
+            "r": 1.0,
+            "g": 0.84,
+            "b": 0.45,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.08,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "bulwark",
+      "item": {
+        "itemId": "bulwark",
+        "displayName": "防壁",
+        "description": "高生命与撞击减伤",
+        "iconId": "bulwark",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 14,
+        "healthBonus": 20,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.03999999910593033,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "盾",
+          "生命"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 9,
+          "tint": {
+            "r": 0.385,
+            "g": 0.8,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.16,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "core",
+      "item": {
+        "itemId": "core",
+        "displayName": "动力核心",
+        "description": "高速撞击构筑强化",
+        "iconId": "core",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 15,
+        "healthBonus": 0,
+        "speedBonus": 12,
+        "impactBonus": 0.07999999821186066,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "核心",
+          "速度",
+          "撞击"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 7,
+          "tint": {
+            "r": 0.47000000000000003,
+            "g": 0.95,
+            "b": 0.85,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.24,
+          "intensity": 1.2,
+          "count": 3,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "crossbow",
+      "item": {
+        "itemId": "crossbow",
+        "displayName": "追踪弩",
+        "description": "追踪弹丸；等级伤害 7/14/28",
+        "iconId": "crossbow",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 11,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "弩",
+          "物理"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 5,
+          "tint": {
+            "r": 0.42,
+            "g": 0.8,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.0,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "追踪弩",
+        "kind": 1,
+        "attackShape": 1,
+        "cooldown": 4.199999809265137,
+        "damage": 28,
+        "range": 14.0,
+        "projectileSpeed": 10.0,
+        "meleeHalfAngle": 70.0,
+        "knockbackImpulse": 0.5,
+        "impactMultiplier": 1.0,
+        "growthPerActivation": 0,
+        "hitDelay": 0.11999999731779099,
+        "animationDuration": 0.30000001192092896,
+        "visualScale": 1.0,
+        "modifiesImpact": false,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.65,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "devourer",
+      "item": {
+        "itemId": "devourer",
+        "displayName": "吞并齿轮",
+        "description": "拖入装备吸收全部数值程序，无次数上限；吸收率10%/20%/50%/100%。",
+        "iconId": "devourer",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 2,
+        "minShopDay": 4,
+        "shopWeight": 1,
+        "price": 65,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 6.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "齿轮",
+          "吸收"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 14,
+          "tint": {
+            "r": 0.735,
+            "g": 0.4,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.08,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "flame_axe",
+      "item": {
+        "itemId": "flame_axe",
+        "displayName": "焰锋斧",
+        "description": "周期激活；详情显示分类与效果。",
+        "iconId": "flame_axe",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 2,
+        "shopWeight": 3,
+        "price": 24,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 3.5,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:Burn",
+            "kind": 4,
+            "amount": 3,
+            "growthPerActivation": 0,
+            "matchTag": "",
+            "levelAmounts": [
+              3,
+              4.8,
+              7.2,
+              10.8
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "tags": [
+          "斧",
+          "物理",
+          "火"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 2,
+          "tint": {
+            "r": 0.79,
+            "g": 0.88,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.16,
+          "intensity": 1.2,
+          "count": 3,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "焰锋斧",
+        "kind": 0,
+        "attackShape": 1,
+        "cooldown": 3.5,
+        "damage": 18,
+        "range": 0.699999988079071,
+        "projectileSpeed": 14.0,
+        "meleeHalfAngle": 180.0,
+        "knockbackImpulse": 1.0,
+        "impactMultiplier": 1.0,
+        "growthPerActivation": 0,
+        "hitDelay": 0.14000000059604645,
+        "animationDuration": 0.3400000035762787,
+        "visualScale": 1.0,
+        "modifiesImpact": false,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.85,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "giant_potion",
+      "item": {
+        "itemId": "giant_potion",
+        "displayName": "巨人药水",
+        "description": "一次性使用；下一场实际战斗生效，战后清除。",
+        "iconId": "injector",
+        "generatedItemId": "",
+        "kind": 1,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 1,
+        "price": 5,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 40.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "药水",
+          "短效"
+        ],
+        "potionLifetime": 1,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 10,
+          "tint": {
+            "r": 0.35,
+            "g": 1,
+            "b": 0.65,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.24,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "gold_ore",
+      "item": {
+        "itemId": "gold_ore",
+        "displayName": "金矿",
+        "description": "可堆叠的战利品，每块出售获得 2 金币。",
+        "iconId": "gold_ore",
+        "generatedItemId": "",
+        "kind": 2,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 1,
+        "price": 2,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "材料",
+          "经济"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 13,
+          "tint": {
+            "r": 1.0,
+            "g": 0.83,
+            "b": 0.25,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.0,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "gold_potion",
+      "item": {
+        "itemId": "gold_potion",
+        "displayName": "金币药剂",
+        "description": "一次性使用；本局永久，可无限使用同类药剂。",
+        "iconId": "injector",
+        "generatedItemId": "",
+        "kind": 1,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 1,
+        "price": 5,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 5.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 9,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "药水",
+          "永久"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 13,
+          "tint": {
+            "r": 1.0,
+            "g": 0.83,
+            "b": 0.25,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.08,
+          "intensity": 1.2,
+          "count": 3,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "greatsword",
+      "item": {
+        "itemId": "greatsword",
+        "displayName": "巨刃",
+        "description": "宽角度挥砍；高级武器预留 3D 模型",
+        "iconId": "greatsword",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 7,
+        "shopWeight": 1,
+        "price": 24,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "剑",
+          "物理"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 2,
+          "tint": {
+            "r": 0.72,
+            "g": 0.88,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.16,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "巨刃",
+        "kind": 0,
+        "attackShape": 1,
+        "cooldown": 2.5,
+        "damage": 20,
+        "range": 0.41999998688697815,
+        "projectileSpeed": 0.0,
+        "meleeHalfAngle": 95.0,
+        "knockbackImpulse": 1.2000000476837158,
+        "impactMultiplier": 1.0,
+        "growthPerActivation": 0,
+        "hitDelay": 0.11999999731779099,
+        "animationDuration": 0.30000001192092896,
+        "visualScale": 1.0,
+        "modifiesImpact": false,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.85,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "guard_potion",
+      "item": {
+        "itemId": "guard_potion",
+        "displayName": "坚韧药水",
+        "description": "一次性使用；下一场实际战斗生效，战后清除。",
+        "iconId": "injector",
+        "generatedItemId": "",
+        "kind": 1,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 1,
+        "price": 5,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 0.10000000149011612,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 7,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "药水",
+          "短效"
+        ],
+        "potionLifetime": 1,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 9,
+          "tint": {
+            "r": 0.385,
+            "g": 0.8,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.24,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "halberd",
+      "item": {
+        "itemId": "halberd",
+        "displayName": "破阵戟",
+        "description": "长距离直线穿刺；高级武器预留 3D 模型",
+        "iconId": "halberd",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 2,
+        "minShopDay": 7,
+        "shopWeight": 1,
+        "price": 24,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "矛",
+          "物理"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 3,
+          "tint": {
+            "r": 0.72,
+            "g": 0.95,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.0,
+          "intensity": 1.2,
+          "count": 3,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "破阵戟",
+        "kind": 0,
+        "attackShape": 0,
+        "cooldown": 1.7999999523162842,
+        "damage": 15.0,
+        "range": 0.6000000238418579,
+        "projectileSpeed": 0.0,
+        "meleeHalfAngle": 32.0,
+        "knockbackImpulse": 1.2999999523162842,
+        "impactMultiplier": 1.2000000476837158,
+        "growthPerActivation": 0.0,
+        "hitDelay": 0.11999999731779099,
+        "animationDuration": 0.30000001192092896,
+        "visualScale": 1.0,
+        "modifiesImpact": true,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.85,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "hammer",
+      "item": {
+        "itemId": "hammer",
+        "displayName": "重锤",
+        "description": "短距离重击；增加正面撞击",
+        "iconId": "hammer",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 13,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "锤",
+          "物理"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 4,
+          "tint": {
+            "r": 1.0,
+            "g": 0.74,
+            "b": 0.35,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.08,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "重锤",
+        "kind": 0,
+        "attackShape": 2,
+        "cooldown": 2.0999999046325684,
+        "damage": 12.0,
+        "range": 0.3799999952316284,
+        "projectileSpeed": 0.0,
+        "meleeHalfAngle": 55.0,
+        "knockbackImpulse": 2.0999999046325684,
+        "impactMultiplier": 1.149999976158142,
+        "growthPerActivation": 0.0,
+        "hitDelay": 0.11999999731779099,
+        "animationDuration": 0.30000001192092896,
+        "visualScale": 1.0,
+        "modifiesImpact": true,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.85,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "health_lab",
+      "item": {
+        "itemId": "health_lab",
+        "displayName": "生命培育舱",
+        "description": "周期激活；详情显示分类与效果。",
+        "iconId": "health_lab",
+        "generatedItemId": "injector",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 12,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 10.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:Shield",
+            "kind": 1,
+            "amount": 12.0,
+            "growthPerActivation": 0.0,
+            "matchTag": ""
+          }
+        ],
+        "tags": [
+          "装置",
+          "生命",
+          "护盾",
+          "药水"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 10,
+          "tint": {
+            "r": 0.385,
+            "g": 1,
+            "b": 0.65,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.16,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "injector",
+      "item": {
+        "itemId": "injector",
+        "displayName": "生命针剂",
+        "description": "一次性使用；本局永久，可无限使用同类药剂。",
+        "iconId": "injector",
+        "generatedItemId": "",
+        "kind": 1,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 1,
+        "price": 5,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "药水",
+          "永久"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 10,
+          "tint": {
+            "r": 0.42,
+            "g": 1,
+            "b": 0.65,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.24,
+          "intensity": 1.2,
+          "count": 3,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "master_flame",
+      "item": {
+        "itemId": "master_flame",
+        "displayName": "宗师火灯",
+        "description": "周期激活；详情显示分类与效果。",
+        "iconId": "master_flame",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 2,
+        "minShopDay": 4,
+        "shopWeight": 1,
+        "price": 55,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 6.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:Burn",
+            "kind": 4,
+            "amount": 4,
+            "growthPerActivation": 0,
+            "matchTag": "",
+            "levelAmounts": [
+              4,
+              6.4,
+              9.6,
+              14.4
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "id": "effect:1:MasterCooldown",
+            "kind": 6,
+            "amount": 0.0,
+            "growthPerActivation": 0.0,
+            "matchTag": "火"
+          }
+        ],
+        "tags": [
+          "灯",
+          "火",
+          "宗师"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 12,
+          "tint": {
+            "r": 1.0,
+            "g": 0.32,
+            "b": 0.08,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.0,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "master_shield",
+      "item": {
+        "itemId": "master_shield",
+        "displayName": "宗师盾",
+        "description": "周期激活；详情显示分类与效果。",
+        "iconId": "master_shield",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 2,
+        "minShopDay": 4,
+        "shopWeight": 1,
+        "price": 50,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 6.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:Shield",
+            "kind": 1,
+            "amount": 54,
+            "growthPerActivation": 0,
+            "matchTag": ""
+          },
+          {
+            "id": "effect:1:MasterCooldown",
+            "kind": 6,
+            "amount": 0.0,
+            "growthPerActivation": 0.0,
+            "matchTag": "盾"
+          }
+        ],
+        "tags": [
+          "盾",
+          "护盾",
+          "宗师"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 9,
+          "tint": {
+            "r": 0.385,
+            "g": 0.8,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.08,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "master_spring",
+      "item": {
+        "itemId": "master_spring",
+        "displayName": "宗师泉石",
+        "description": "周期激活；详情显示分类与效果。",
+        "iconId": "master_spring",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 2,
+        "minShopDay": 4,
+        "shopWeight": 1,
+        "price": 55,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 6.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:Heal",
+            "kind": 2,
+            "amount": 12,
+            "growthPerActivation": 0,
+            "matchTag": ""
+          },
+          {
+            "id": "effect:1:MasterCooldown",
+            "kind": 6,
+            "amount": 0.0,
+            "growthPerActivation": 0.0,
+            "matchTag": "再生"
+          }
+        ],
+        "tags": [
+          "泉石",
+          "再生",
+          "治疗",
+          "宗师"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 10,
+          "tint": {
+            "r": 0.42,
+            "g": 1,
+            "b": 0.65,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.16,
+          "intensity": 1.2,
+          "count": 3,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "master_sword",
+      "item": {
+        "itemId": "master_sword",
+        "displayName": "宗师剑",
+        "description": "周期激活；详情显示分类与效果。",
+        "iconId": "master_sword",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 2,
+        "minShopDay": 4,
+        "shopWeight": 1,
+        "price": 50,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 6.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:MasterCooldown",
+            "kind": 6,
+            "amount": 0.0,
+            "growthPerActivation": 0.0,
+            "matchTag": "剑"
+          }
+        ],
+        "tags": [
+          "剑",
+          "物理",
+          "宗师"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 2,
+          "tint": {
+            "r": 0.72,
+            "g": 0.88,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.24,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "宗师剑",
+        "kind": 0,
+        "attackShape": 1,
+        "cooldown": 6.0,
+        "damage": 42,
+        "range": 0.800000011920929,
+        "projectileSpeed": 14.0,
+        "meleeHalfAngle": 180.0,
+        "knockbackImpulse": 0.6000000238418579,
+        "impactMultiplier": 1.0,
+        "growthPerActivation": 0,
+        "hitDelay": 0.14000000059604645,
+        "animationDuration": 0.3400000035762787,
+        "visualScale": 1.0,
+        "modifiesImpact": false,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.85,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "master_token",
+      "item": {
+        "itemId": "master_token",
+        "displayName": "宗师令牌",
+        "description": "周期激活；详情显示分类与效果。",
+        "iconId": "master_token",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 3,
+        "minShopDay": 6,
+        "shopWeight": 1,
+        "price": 90,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 8.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:TriggerApprentices",
+            "kind": 7,
+            "amount": 0.0,
+            "growthPerActivation": 0.0,
+            "matchTag": ""
+          }
+        ],
+        "tags": [
+          "令牌",
+          "宗师"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 8,
+          "tint": {
+            "r": 1.0,
+            "g": 0.84,
+            "b": 0.45,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.0,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "master_venom",
+      "item": {
+        "itemId": "master_venom",
+        "displayName": "宗师毒典",
+        "description": "周期激活；详情显示分类与效果。",
+        "iconId": "master_venom",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 2,
+        "minShopDay": 4,
+        "shopWeight": 1,
+        "price": 55,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 6.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:Poison",
+            "kind": 3,
+            "amount": 0.75,
+            "growthPerActivation": 0,
+            "matchTag": ""
+          },
+          {
+            "id": "effect:1:MasterCooldown",
+            "kind": 6,
+            "amount": 0.0,
+            "growthPerActivation": 0.0,
+            "matchTag": "毒"
+          }
+        ],
+        "tags": [
+          "法典",
+          "毒",
+          "宗师"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 11,
+          "tint": {
+            "r": 0.72,
+            "g": 0.92,
+            "b": 0.22,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.08,
+          "intensity": 1.2,
+          "count": 3,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "padding",
+      "item": {
+        "itemId": "padding",
+        "displayName": "缓冲护垫",
+        "description": "降低受到的撞击伤害",
+        "iconId": "padding",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 10,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.05999999865889549,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "护甲",
+          "减伤"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 9,
+          "tint": {
+            "r": 0.35,
+            "g": 0.8,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.16,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "pickaxe",
+      "item": {
+        "itemId": "pickaxe",
+        "displayName": "矿镐",
+        "description": "近战命中可在战后获得金矿",
+        "iconId": "pickaxe",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 11,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "镐",
+          "物理",
+          "经济"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 13,
+          "tint": {
+            "r": 1.0,
+            "g": 0.83,
+            "b": 0.25,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.24,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "矿镐",
+        "kind": 0,
+        "attackShape": 2,
+        "cooldown": 1.7999999523162842,
+        "damage": 5.0,
+        "range": 0.3499999940395355,
+        "projectileSpeed": 0.0,
+        "meleeHalfAngle": 48.0,
+        "knockbackImpulse": 0.800000011920929,
+        "impactMultiplier": 1.0,
+        "growthPerActivation": 0.0,
+        "hitDelay": 0.11999999731779099,
+        "animationDuration": 0.30000001192092896,
+        "visualScale": 1.0,
+        "modifiesImpact": false,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.85,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "plating",
+      "item": {
+        "itemId": "plating",
+        "displayName": "重型装甲",
+        "description": "提高生命，也提高质量",
+        "iconId": "plating",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 12,
+        "healthBonus": 12,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "护甲",
+          "生命"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 9,
+          "tint": {
+            "r": 0.42,
+            "g": 0.8,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.0,
+          "intensity": 1.2,
+          "count": 3,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "poison_dagger",
+      "item": {
+        "itemId": "poison_dagger",
+        "displayName": "毒牙匕首",
+        "description": "周期激活；详情显示分类与效果。",
+        "iconId": "poison_dagger",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 2,
+        "shopWeight": 3,
+        "price": 22,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 2.799999952316284,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:Poison",
+            "kind": 3,
+            "amount": 0.25,
+            "growthPerActivation": 0,
+            "matchTag": ""
+          }
+        ],
+        "tags": [
+          "匕首",
+          "物理",
+          "毒"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 3,
+          "tint": {
+            "r": 0.65,
+            "g": 0.95,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.08,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "毒牙匕首",
+        "kind": 0,
+        "attackShape": 0,
+        "cooldown": 2.799999952316284,
+        "damage": 14,
+        "range": 0.5,
+        "projectileSpeed": 14.0,
+        "meleeHalfAngle": 180.0,
+        "knockbackImpulse": 0.30000001192092896,
+        "impactMultiplier": 1.0,
+        "growthPerActivation": 0,
+        "hitDelay": 0.14000000059604645,
+        "animationDuration": 0.3400000035762787,
+        "visualScale": 1.0,
+        "modifiesImpact": false,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.85,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "ram",
+      "item": {
+        "itemId": "ram",
+        "displayName": "撞角",
+        "description": "提高撞击伤害",
+        "iconId": "ram",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 12,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.11999999731779099,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "撞角",
+          "撞击"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 4,
+          "tint": {
+            "r": 1.0,
+            "g": 0.74,
+            "b": 0.35,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.16,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "random_brewer",
+      "item": {
+        "itemId": "random_brewer",
+        "displayName": "随机炼药釜",
+        "description": "周期激活；详情显示分类与效果。",
+        "iconId": "random_brewer",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 2,
+        "shopWeight": 3,
+        "price": 28,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 16.0,
+        "activationCooldown": 5.0,
+        "injectionStat": 0,
+        "randomPotionProducer": true,
+        "effects": [
+          {
+            "id": "effect:0:Heal",
+            "kind": 2,
+            "amount": 6,
+            "growthPerActivation": 0,
+            "matchTag": ""
+          }
+        ],
+        "tags": [
+          "装置",
+          "治疗",
+          "药水",
+          "随机"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 6,
+          "tint": {
+            "r": 1.0,
+            "g": 0.58,
+            "b": 0.75,
+            "a": 1
+          },
+          "duration": 0.8,
+          "scale": 1.24,
+          "intensity": 1.2,
+          "count": 4,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "rapier",
+      "item": {
+        "itemId": "rapier",
+        "displayName": "轻剑",
+        "description": "快速短距离挥击",
+        "iconId": "rapier",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 11,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "剑",
+          "物理"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 2,
+          "tint": {
+            "r": 0.72,
+            "g": 0.88,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.0,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "轻剑",
+        "kind": 0,
+        "attackShape": 1,
+        "cooldown": 0.8500000238418579,
+        "damage": 6,
+        "range": 0.30000001192092896,
+        "projectileSpeed": 0.0,
+        "meleeHalfAngle": 85.0,
+        "knockbackImpulse": 0.44999998807907104,
+        "impactMultiplier": 1.0,
+        "growthPerActivation": 0,
+        "hitDelay": 0.11999999731779099,
+        "animationDuration": 0.30000001192092896,
+        "visualScale": 1.0,
+        "modifiesImpact": false,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.85,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "repulsor",
+      "item": {
+        "itemId": "repulsor",
+        "displayName": "斥力锤",
+        "description": "强击退重击；高级武器预留 3D 模型",
+        "iconId": "repulsor",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 7,
+        "shopWeight": 1,
+        "price": 25,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "锤",
+          "击退"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 4,
+          "tint": {
+            "r": 1.0,
+            "g": 0.74,
+            "b": 0.35,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.08,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "斥力锤",
+        "kind": 0,
+        "attackShape": 2,
+        "cooldown": 2.0,
+        "damage": 8.0,
+        "range": 0.44999998807907104,
+        "projectileSpeed": 0.0,
+        "meleeHalfAngle": 58.0,
+        "knockbackImpulse": 3.5,
+        "impactMultiplier": 1.0,
+        "growthPerActivation": 0.0,
+        "hitDelay": 0.11999999731779099,
+        "animationDuration": 0.30000001192092896,
+        "visualScale": 1.0,
+        "modifiesImpact": false,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.85,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "shield_emitter",
+      "item": {
+        "itemId": "shield_emitter",
+        "displayName": "黄铜盾发生器",
+        "description": "周期激活；详情显示分类与效果。",
+        "iconId": "shield_emitter",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 2,
+        "shopWeight": 3,
+        "price": 24,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 3.5,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:Shield",
+            "kind": 1,
+            "amount": 32,
+            "growthPerActivation": 0,
+            "matchTag": ""
+          }
+        ],
+        "tags": [
+          "装置",
+          "护盾"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 9,
+          "tint": {
+            "r": 0.42,
+            "g": 0.8,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.16,
+          "intensity": 1.2,
+          "count": 3,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "shield_potion",
+      "item": {
+        "itemId": "shield_potion",
+        "displayName": "护盾药水",
+        "description": "一次性使用；下一场实际战斗生效，战后清除。",
+        "iconId": "injector",
+        "generatedItemId": "",
+        "kind": 1,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 1,
+        "price": 5,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 40.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 8,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "药水",
+          "短效"
+        ],
+        "potionLifetime": 1,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 9,
+          "tint": {
+            "r": 0.35,
+            "g": 0.8,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.24,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "spear",
+      "item": {
+        "itemId": "spear",
+        "displayName": "冲刺矛",
+        "description": "近战攻击；等级伤害 8/16/32",
+        "iconId": "spear",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 10,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "矛",
+          "物理"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 3,
+          "tint": {
+            "r": 0.685,
+            "g": 0.95,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.0,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "冲刺矛",
+        "kind": 0,
+        "attackShape": 0,
+        "cooldown": 1.399999976158142,
+        "damage": 10,
+        "range": 0.4000000059604645,
+        "projectileSpeed": 0.0,
+        "meleeHalfAngle": 25.0,
+        "knockbackImpulse": 0.699999988079071,
+        "impactMultiplier": 1.2999999523162842,
+        "growthPerActivation": 0,
+        "hitDelay": 0.11999999731779099,
+        "animationDuration": 0.30000001192092896,
+        "visualScale": 1.0,
+        "modifiesImpact": true,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.85,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "speed_injector",
+      "item": {
+        "itemId": "speed_injector",
+        "displayName": "迅捷针剂",
+        "description": "一次性使用；本局永久，可无限使用同类药剂。",
+        "iconId": "speed_injector",
+        "generatedItemId": "",
+        "kind": 1,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 1,
+        "price": 5,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 3.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 1,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "药水",
+          "永久"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 8,
+          "tint": {
+            "r": 1.0,
+            "g": 0.84,
+            "b": 0.45,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.08,
+          "intensity": 1.2,
+          "count": 3,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "speed_lab",
+      "item": {
+        "itemId": "speed_lab",
+        "displayName": "迅捷离心机",
+        "description": "周期激活；详情显示分类与效果。",
+        "iconId": "speed_lab",
+        "generatedItemId": "speed_injector",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 14,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 10.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:Poison",
+            "kind": 3,
+            "amount": 0.2,
+            "growthPerActivation": 0,
+            "matchTag": ""
+          }
+        ],
+        "tags": [
+          "装置",
+          "速度",
+          "毒",
+          "药水"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 11,
+          "tint": {
+            "r": 0.65,
+            "g": 0.92,
+            "b": 0.22,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.16,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "strength_injector",
+      "item": {
+        "itemId": "strength_injector",
+        "displayName": "力量针剂",
+        "description": "一次性使用；本局永久，可无限使用同类药剂。",
+        "iconId": "strength_injector",
+        "generatedItemId": "",
+        "kind": 1,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 1,
+        "price": 5,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 0.029999999329447746,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 6,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "药水",
+          "永久"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 6,
+          "tint": {
+            "r": 1.0,
+            "g": 0.58,
+            "b": 0.75,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.24,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "strength_lab",
+      "item": {
+        "itemId": "strength_lab",
+        "displayName": "力量蒸馏器",
+        "description": "周期激活；详情显示分类与效果。",
+        "iconId": "strength_lab",
+        "generatedItemId": "strength_injector",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 14,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 10.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "装置",
+          "物理",
+          "药水"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 5,
+          "tint": {
+            "r": 0.49,
+            "g": 0.8,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.0,
+          "intensity": 1.2,
+          "count": 3,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "力量蒸馏器",
+        "kind": 1,
+        "attackShape": 1,
+        "cooldown": 4.0,
+        "damage": 12.0,
+        "range": 14.0,
+        "projectileSpeed": 12.0,
+        "meleeHalfAngle": 180.0,
+        "knockbackImpulse": 0.0,
+        "impactMultiplier": 1.0,
+        "growthPerActivation": 0.0,
+        "hitDelay": 0.14000000059604645,
+        "animationDuration": 0.3400000035762787,
+        "visualScale": 1.0,
+        "modifiesImpact": false,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.65,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "super_injector",
+      "item": {
+        "itemId": "super_injector",
+        "displayName": "超级药水注射器",
+        "description": "拖入药剂保存配方，无次数上限；每8秒复放配方且不消耗。",
+        "iconId": "super_injector",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 3,
+        "minShopDay": 6,
+        "shopWeight": 1,
+        "price": 120,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 8.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:ReplayPotions",
+            "kind": 8,
+            "amount": 0.0,
+            "growthPerActivation": 0.0,
+            "matchTag": ""
+          }
+        ],
+        "tags": [
+          "装置",
+          "注射",
+          "药水",
+          "吸收"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 14,
+          "tint": {
+            "r": 0.7,
+            "g": 0.4,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.08,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "swift_potion",
+      "item": {
+        "itemId": "swift_potion",
+        "displayName": "迅捷药水",
+        "description": "一次性使用；下一场实际战斗生效，战后清除。",
+        "iconId": "speed_injector",
+        "generatedItemId": "",
+        "kind": 1,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 1,
+        "price": 5,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 15.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 1,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "药水",
+          "短效"
+        ],
+        "potionLifetime": 1,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 8,
+          "tint": {
+            "r": 1.0,
+            "g": 0.84,
+            "b": 0.45,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.16,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "crossbow",
+      "item": {
+        "itemId": "sword_rain",
+        "displayName": "星落剑阵",
+        "description": "主播表现原型；沿用现有图标，可独立替换素材。",
+        "iconId": "greatsword",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 3,
+        "minShopDay": 5,
+        "shopWeight": 3,
+        "price": 38,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "剑阵",
+          "物理"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 7,
+          "tint": {
+            "r": 0.47000000000000003,
+            "g": 0.95,
+            "b": 0.85,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.24,
+          "intensity": 1.2,
+          "count": 12,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "星落剑阵",
+        "kind": 1,
+        "attackShape": 1,
+        "cooldown": 8.0,
+        "damage": 48.0,
+        "range": 14.0,
+        "projectileSpeed": 12.0,
+        "meleeHalfAngle": 70.0,
+        "knockbackImpulse": 0.5,
+        "impactMultiplier": 1.0,
+        "growthPerActivation": 0.0,
+        "hitDelay": 0.4000000059604645,
+        "animationDuration": 0.8500000238418579,
+        "visualScale": 1.0,
+        "modifiesImpact": false,
+        "visualStyle": 1,
+        "visualCount": 12,
+        "visualSize": 0.62,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "crossbow",
+      "item": {
+        "itemId": "prism_laser",
+        "displayName": "棱镜光束",
+        "description": "主播表现原型；沿用现有图标，可独立替换素材。",
+        "iconId": "crossbow",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 2,
+        "minShopDay": 3,
+        "shopWeight": 3,
+        "price": 26,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "光束",
+          "物理"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 5,
+          "tint": {
+            "r": 0.42,
+            "g": 0.8,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.0,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "棱镜光束",
+        "kind": 1,
+        "attackShape": 1,
+        "cooldown": 4.0,
+        "damage": 24.0,
+        "range": 14.0,
+        "projectileSpeed": 100.0,
+        "meleeHalfAngle": 70.0,
+        "knockbackImpulse": 0.5,
+        "impactMultiplier": 1.0,
+        "growthPerActivation": 0.0,
+        "hitDelay": 0.07999999821186066,
+        "animationDuration": 0.2199999988079071,
+        "visualScale": 1.0,
+        "modifiesImpact": false,
+        "visualStyle": 2,
+        "visualCount": 1,
+        "visualSize": 0.65,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "hammer",
+      "item": {
+        "itemId": "quake_hammer",
+        "displayName": "震荡战锤",
+        "description": "主播表现原型；沿用现有图标，可独立替换素材。",
+        "iconId": "hammer",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 18,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0.0,
+        "impactTakenReduction": 0.0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4.0,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [],
+        "tags": [
+          "锤",
+          "物理"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 4,
+          "tint": {
+            "r": 1.0,
+            "g": 0.74,
+            "b": 0.35,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.08,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "震荡战锤",
+        "kind": 0,
+        "attackShape": 2,
+        "cooldown": 4.0,
+        "damage": 25.0,
+        "range": 0.3799999952316284,
+        "projectileSpeed": 12.0,
+        "meleeHalfAngle": 55.0,
+        "knockbackImpulse": 2.0999999046325684,
+        "impactMultiplier": 1.149999976158142,
+        "growthPerActivation": 0.0,
+        "hitDelay": 0.2199999988079071,
+        "animationDuration": 0.5,
+        "visualScale": 1.0,
+        "modifiesImpact": true,
+        "visualStyle": 3,
+        "visualCount": 1,
+        "visualSize": 0.85,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "greatsword",
+      "item": {
+        "itemId": "death_scythe",
+        "displayName": "死神镰刀",
+        "description": "怪物特色装备，玩家也可装备。百分比与持续时间不随装备等级翻倍。",
+        "iconId": "death_scythe",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 3,
+        "minShopDay": 3,
+        "shopWeight": 1,
+        "price": 36,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 9,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:TargetMaxHealthDamage",
+            "kind": 9,
+            "amount": 0.3333333333333333,
+            "growthPerActivation": 0,
+            "criticalChance": 0.2,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "镰刀",
+          "物理",
+          "死神"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "heavy_swing",
+        "hitSoundId": "metal_hit",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "bossExclusive": false,
+        "fixedLevel": 4,
+        "acquisition": 1,
+        "bossItem": true,
+        "animation": {
+          "preset": 16,
+          "tint": {
+            "r": 0.8500000000000001,
+            "g": 0.45,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.9,
+          "scale": 1.8,
+          "intensity": 1.2,
+          "count": 3,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "巨刃",
+        "kind": 0,
+        "attackShape": 1,
+        "cooldown": 9,
+        "damage": 0,
+        "range": 12,
+        "projectileSpeed": 0.0,
+        "meleeHalfAngle": 95.0,
+        "knockbackImpulse": 0.3,
+        "impactMultiplier": 1.0,
+        "growthPerActivation": 0,
+        "hitDelay": 0.3,
+        "animationDuration": 0.85,
+        "visualScale": 1.0,
+        "modifiesImpact": false,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 4.5,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 1
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "padding",
+      "item": {
+        "itemId": "death_cloak",
+        "displayName": "死神披风",
+        "description": "怪物特色装备，玩家也可装备。百分比与持续时间不随装备等级翻倍。",
+        "iconId": "death_cloak",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 2,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 24,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 7,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "1c1c3733aa254d589bff9612bed44b38",
+            "kind": 10,
+            "amount": 1,
+            "levelAmounts": [
+              1,
+              1,
+              1,
+              1.5
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "披风",
+          "防守",
+          "死神"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "shield_gain",
+        "hitSoundId": "none",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "bossExclusive": false,
+        "fixedLevel": 0,
+        "acquisition": 1,
+        "bossItem": false,
+        "animation": {
+          "preset": 8,
+          "tint": {
+            "r": 1.0,
+            "g": 0.84,
+            "b": 0.45,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.24,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "padding",
+      "item": {
+        "itemId": "slime_mucus",
+        "displayName": "史莱姆粘液",
+        "description": "史莱姆分体组织：释放时先增长本场最大生命，再以自身最大生命造成伤害。八团组合需按整套累计成长比较。",
+        "iconId": "slime_mucus",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 12,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 5,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:GrowBattleMaxHealth",
+            "kind": 11,
+            "amount": 0.01,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              0.01,
+              0.013,
+              0.016,
+              0.02
+            ]
+          },
+          {
+            "id": "effect:1:OwnMaxHealthDamage",
+            "kind": 12,
+            "amount": 0.015,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              0.015,
+              0.02,
+              0.025,
+              0.03
+            ]
+          }
+        ],
+        "tags": [
+          "粘液",
+          "成长",
+          "史莱姆"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "poison_hit",
+        "hitSoundId": "none",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 1,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0,
+        "animation": {
+          "preset": 15,
+          "tint": {
+            "r": 0.43500000000000005,
+            "g": 1,
+            "b": 0.35,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.0,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "padding",
+      "item": {
+        "itemId": "bone_talisman",
+        "displayName": "骨珠护符",
+        "description": "怪物特色装备，玩家也可装备。百分比与持续时间不随装备等级翻倍。",
+        "iconId": "bone_talisman",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 0,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 8,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 6,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "effect:0:Shield",
+            "kind": 1,
+            "amount": 8,
+            "growthPerActivation": 0
+          }
+        ],
+        "tags": [
+          "护符",
+          "护盾",
+          "死神"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "poison_hit",
+        "hitSoundId": "none",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 9,
+          "tint": {
+            "r": 0.42,
+            "g": 0.8,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.08,
+          "intensity": 1.2,
+          "count": 3,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "ash_greatsword",
+      "item": {
+        "itemId": "ash_greatsword",
+        "displayName": "灰烬巨剑",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "ash_greatsword",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 3.6,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "f61ca6651148409cb12f14a2f084690e",
+            "kind": 4,
+            "amount": 2,
+            "levelAmounts": [
+              2,
+              3.2,
+              4.8,
+              7.2
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "ash-burning-hit-shield",
+            "kind": 1,
+            "amount": 4,
+            "levelAmounts": [
+              4,
+              8,
+              16,
+              48
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 2,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "剑",
+          "火"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 0,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0,
+        "animation": {
+          "preset": 2,
+          "tint": {
+            "r": 0.72,
+            "g": 0.88,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.16,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "灰烬巨剑",
+        "kind": 0,
+        "attackShape": 2,
+        "cooldown": 3.6,
+        "damage": 12,
+        "range": 0.3799999952316284,
+        "projectileSpeed": 0.0,
+        "meleeHalfAngle": 55.0,
+        "knockbackImpulse": 2.0999999046325684,
+        "impactMultiplier": 1.149999976158142,
+        "growthPerActivation": 0,
+        "hitDelay": 0.11999999731779099,
+        "animationDuration": 0.30000001192092896,
+        "visualScale": 1.0,
+        "modifiesImpact": true,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.85,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "furnace_armor",
+      "item": {
+        "itemId": "furnace_armor",
+        "displayName": "熔炉铠甲",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "furnace_armor",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 6,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "4859308694a74025960499d8895385f0",
+            "kind": 1,
+            "amount": 32,
+            "levelAmounts": [
+              32,
+              64,
+              128,
+              256
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "9c5d8202d1fa4dd1b7ece6beb9da0256",
+            "kind": 4,
+            "amount": 2,
+            "levelAmounts": [
+              2,
+              3.2,
+              4.8,
+              7.2
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "growthPerActivation": 0,
+            "trigger": 3,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "护甲",
+          "火"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 1,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0,
+        "animation": {
+          "preset": 12,
+          "tint": {
+            "r": 1.0,
+            "g": 0.32,
+            "b": 0.08,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.24,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "ember_crown",
+      "item": {
+        "itemId": "ember_crown",
+        "displayName": "余烬王冠",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "ember_crown",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 3,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 30,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 5,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "bc2257fad18e46d881365179e70b40a5",
+            "kind": 1,
+            "amount": 55,
+            "levelAmounts": [
+              55,
+              55,
+              55,
+              55
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "ec3d11b1b03a4220aa4ff18bd3ea10cf",
+            "kind": 4,
+            "amount": 3,
+            "levelAmounts": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "火",
+          "首领"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 1,
+        "bossItem": true,
+        "bossExclusive": false,
+        "fixedLevel": 4,
+        "animation": {
+          "preset": 12,
+          "tint": {
+            "r": 1.0,
+            "g": 0.32,
+            "b": 0.08,
+            "a": 1
+          },
+          "duration": 0.81,
+          "scale": 1.3,
+          "intensity": 1.2,
+          "count": 5,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "plague_sprayer",
+      "item": {
+        "itemId": "plague_sprayer",
+        "displayName": "瘟疫喷管",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "plague_sprayer",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 3.8,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "eb90e62513f64ded91863c5a8de22ff2",
+            "kind": 3,
+            "amount": 0.3,
+            "levelAmounts": [
+              0.3,
+              0.6,
+              1.2,
+              2.4
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "毒",
+          "远程"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 0,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0,
+        "animation": {
+          "preset": 5,
+          "tint": {
+            "r": 0.42,
+            "g": 0.8,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.08,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "瘟疫喷管",
+        "kind": 1,
+        "attackShape": 1,
+        "cooldown": 3.8,
+        "damage": 6,
+        "range": 14.0,
+        "projectileSpeed": 10.0,
+        "meleeHalfAngle": 70.0,
+        "knockbackImpulse": 0.5,
+        "impactMultiplier": 1.0,
+        "growthPerActivation": 0,
+        "hitDelay": 0.11999999731779099,
+        "animationDuration": 0.30000001192092896,
+        "visualScale": 1.0,
+        "modifiesImpact": false,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.65,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "plague_distiller",
+      "item": {
+        "itemId": "plague_distiller",
+        "displayName": "瘟疫蒸馏器",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "plague_distiller",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 20,
+        "activationCooldown": 6,
+        "injectionStat": 0,
+        "randomPotionProducer": true,
+        "effects": [
+          {
+            "id": "70633163acdf48238c29e051a32fa765",
+            "kind": 3,
+            "amount": 0.4,
+            "levelAmounts": [
+              0.4,
+              0.8,
+              1.6,
+              3.2
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "毒",
+          "生产"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 1,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0,
+        "animation": {
+          "preset": 11,
+          "tint": {
+            "r": 0.685,
+            "g": 0.92,
+            "b": 0.22,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.16,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "plague_heart",
+      "item": {
+        "itemId": "plague_heart",
+        "displayName": "瘟疫之心",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "plague_heart",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 3,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 30,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 5,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "6a81c41c32564269bd4018f98b414d5b",
+            "kind": 3,
+            "amount": 1,
+            "levelAmounts": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "1cf6174a7840487b8da384a0568e8e47",
+            "kind": 5,
+            "amount": 0.5,
+            "levelAmounts": [
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "毒",
+          "首领"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 1,
+        "bossItem": true,
+        "bossExclusive": false,
+        "fixedLevel": 4,
+        "animation": {
+          "preset": 11,
+          "tint": {
+            "r": 0.72,
+            "g": 0.92,
+            "b": 0.22,
+            "a": 1
+          },
+          "duration": 0.81,
+          "scale": 1.54,
+          "intensity": 1.2,
+          "count": 5,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "holy_bell",
+      "item": {
+        "itemId": "holy_bell",
+        "displayName": "圣钟",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "holy_bell",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 5,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "3b0e7d05e47542d8b2ab7d009cc41892",
+            "kind": 1,
+            "amount": 40,
+            "levelAmounts": [
+              40,
+              80,
+              160,
+              320
+            ],
+            "levelGrowthAmounts": [
+              1,
+              2,
+              4,
+              12
+            ],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "盾",
+          "圣光"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 0,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0,
+        "animation": {
+          "preset": 8,
+          "tint": {
+            "r": 1.0,
+            "g": 0.84,
+            "b": 0.45,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.0,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "judgement_hammer",
+      "item": {
+        "itemId": "judgement_hammer",
+        "displayName": "裁决之锤",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "judgement_hammer",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 4,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "71a69059d4354adab43ff1c9cd213a8f",
+            "kind": 13,
+            "amount": 0.2,
+            "levelAmounts": [
+              0.2,
+              0.2,
+              0.2,
+              0.35
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "锤",
+          "圣光"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 1,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0,
+        "animation": {
+          "preset": 4,
+          "tint": {
+            "r": 1.0,
+            "g": 0.74,
+            "b": 0.35,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.08,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "裁决之锤",
+        "kind": 0,
+        "attackShape": 2,
+        "cooldown": 4,
+        "damage": 15,
+        "range": 0.3799999952316284,
+        "projectileSpeed": 0.0,
+        "meleeHalfAngle": 55.0,
+        "knockbackImpulse": 2.0999999046325684,
+        "impactMultiplier": 1.149999976158142,
+        "growthPerActivation": 0,
+        "hitDelay": 0.11999999731779099,
+        "animationDuration": 0.30000001192092896,
+        "visualScale": 1.0,
+        "modifiesImpact": true,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.85,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "saint_seal",
+      "item": {
+        "itemId": "saint_seal",
+        "displayName": "圣者印记",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "saint_seal",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 3,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 30,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 6,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "872ed43805794d63bb954b910707a290",
+            "kind": 1,
+            "amount": 60,
+            "levelAmounts": [
+              60,
+              60,
+              60,
+              60
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "9ed2ceda75e046bf8326c7eb008cfb71",
+            "kind": 5,
+            "amount": 0.6,
+            "levelAmounts": [
+              0.6,
+              0.6,
+              0.6,
+              0.6
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "圣光",
+          "首领"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 1,
+        "bossItem": true,
+        "bossExclusive": false,
+        "fixedLevel": 4,
+        "animation": {
+          "preset": 10,
+          "tint": {
+            "r": 0.42,
+            "g": 1,
+            "b": 0.65,
+            "a": 1
+          },
+          "duration": 0.81,
+          "scale": 1.46,
+          "intensity": 1.2,
+          "count": 5,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "green_flying_sword",
+      "item": {
+        "itemId": "green_flying_sword",
+        "displayName": "青竹飞剑",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "green_flying_sword",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 2.4,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "7c3ad65782e9401488d506175a91d624",
+            "kind": 0,
+            "amount": 0,
+            "levelAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "levelGrowthAmounts": [
+              1,
+              2,
+              4,
+              12
+            ],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "剑",
+          "物理"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 0,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0,
+        "animation": {
+          "preset": 7,
+          "tint": {
+            "r": 0.4,
+            "g": 0.95,
+            "b": 0.85,
+            "a": 1
+          },
+          "duration": 0.7,
+          "scale": 1.2,
+          "intensity": 1.0,
+          "count": 3,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "青竹飞剑",
+        "kind": 1,
+        "attackShape": 1,
+        "cooldown": 2.4,
+        "damage": 3,
+        "range": 14.0,
+        "projectileSpeed": 10.0,
+        "meleeHalfAngle": 70.0,
+        "knockbackImpulse": 0.5,
+        "impactMultiplier": 1.0,
+        "growthPerActivation": 0,
+        "hitDelay": 0.11999999731779099,
+        "animationDuration": 0.30000001192092896,
+        "visualScale": 1.0,
+        "modifiesImpact": false,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.65,
+        "effectScale": 1,
+        "projectileSize": 0.7,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 4
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "sword_case",
+      "item": {
+        "itemId": "sword_case",
+        "displayName": "养剑匣",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "sword_case",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 8,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "c0d36fad46f548e9944807a0c64e9665",
+            "kind": 14,
+            "amount": 1,
+            "levelAmounts": [
+              1,
+              1,
+              2,
+              3
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "剑",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "剑"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 1,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0,
+        "animation": {
+          "preset": 7,
+          "tint": {
+            "r": 0.43500000000000005,
+            "g": 0.95,
+            "b": 0.85,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.0,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "sword_spirit_core",
+      "item": {
+        "itemId": "sword_spirit_core",
+        "displayName": "剑灵核心",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "sword_spirit_core",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 3,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 30,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 6,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "6446f479c8db41b6bce70bd5e975c2b7",
+            "kind": 14,
+            "amount": 2,
+            "levelAmounts": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "剑",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "剑",
+          "首领"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 1,
+        "bossItem": true,
+        "bossExclusive": false,
+        "fixedLevel": 4,
+        "animation": {
+          "preset": 7,
+          "tint": {
+            "r": 0.47000000000000003,
+            "g": 0.95,
+            "b": 0.85,
+            "a": 1
+          },
+          "duration": 0.81,
+          "scale": 1.3800000000000001,
+          "intensity": 1.2,
+          "count": 5,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "剑灵核心",
+        "kind": 1,
+        "attackShape": 1,
+        "cooldown": 6,
+        "damage": 20.0,
+        "range": 14.0,
+        "projectileSpeed": 10.0,
+        "meleeHalfAngle": 70.0,
+        "knockbackImpulse": 0.5,
+        "impactMultiplier": 1.0,
+        "growthPerActivation": 0,
+        "hitDelay": 0.11999999731779099,
+        "animationDuration": 0.30000001192092896,
+        "visualScale": 1.0,
+        "modifiesImpact": false,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.65,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "red_potion_furnace",
+      "item": {
+        "itemId": "red_potion_furnace",
+        "displayName": "赤药炉",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "red_potion_furnace",
+        "generatedItemId": "injector",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 12,
+        "activationCooldown": 5,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "5bae74b8975142b68a7d48ae24a84953",
+            "kind": 1,
+            "amount": 10,
+            "levelAmounts": [
+              10,
+              20,
+              40,
+              120
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "生产",
+          "丹药"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 0,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0,
+        "animation": {
+          "preset": 6,
+          "tint": {
+            "r": 1.0,
+            "g": 0.58,
+            "b": 0.75,
+            "a": 1
+          },
+          "duration": 0.8,
+          "scale": 1.16,
+          "intensity": 1.0,
+          "count": 4,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "blood_gourd",
+      "item": {
+        "itemId": "blood_gourd",
+        "displayName": "血葫芦",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "blood_gourd",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 24,
+        "activationCooldown": 5,
+        "injectionStat": 0,
+        "randomPotionProducer": true,
+        "effects": [
+          {
+            "id": "1ac17c56c0f9491bb6b1f5a2d4d70345",
+            "kind": 0,
+            "amount": 8,
+            "levelAmounts": [
+              8,
+              16,
+              32,
+              96
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "生产",
+          "丹药"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 1,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0,
+        "animation": {
+          "preset": 6,
+          "tint": {
+            "r": 1.0,
+            "g": 0.58,
+            "b": 0.75,
+            "a": 1
+          },
+          "duration": 0.8,
+          "scale": 1.24,
+          "intensity": 1.1,
+          "count": 4,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "alchemy_core",
+      "item": {
+        "itemId": "alchemy_core",
+        "displayName": "炼丹核心",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "alchemy_core",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 3,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 30,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 6,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "58fb53c5d3534ec0aa7c3c23852b39ab",
+            "kind": 1,
+            "amount": 45,
+            "levelAmounts": [
+              45,
+              45,
+              45,
+              45
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "a690c9b5d31f49e6952cf96a7792c44a",
+            "kind": 2,
+            "amount": 12,
+            "levelAmounts": [
+              12,
+              12,
+              12,
+              12
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "丹药",
+          "首领"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 1,
+        "bossItem": true,
+        "bossExclusive": false,
+        "fixedLevel": 4,
+        "animation": {
+          "preset": 10,
+          "tint": {
+            "r": 0.42,
+            "g": 1,
+            "b": 0.65,
+            "a": 1
+          },
+          "duration": 0.81,
+          "scale": 1.3,
+          "intensity": 1.2,
+          "count": 5,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "frost_shell",
+      "item": {
+        "itemId": "frost_shell",
+        "displayName": "霜龟甲",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "frost_shell",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 5,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "49087eadd53746dfb258f1ffde47c520",
+            "kind": 1,
+            "amount": 28,
+            "levelAmounts": [
+              28,
+              56,
+              112,
+              224
+            ],
+            "levelGrowthAmounts": [
+              1,
+              2,
+              4,
+              12
+            ],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "a04c43e459674c19b446cf96d12b9ef4",
+            "kind": 5,
+            "amount": 0.15,
+            "levelAmounts": [
+              0.15,
+              0.3,
+              0.6,
+              1.2
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "盾",
+          "再生"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 0,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0,
+        "animation": {
+          "preset": 9,
+          "tint": {
+            "r": 0.35,
+            "g": 0.8,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.5,
+          "scale": 1.08,
+          "intensity": 1.0,
+          "count": 1,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "mountain_seal",
+      "item": {
+        "itemId": "mountain_seal",
+        "displayName": "镇山印",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "mountain_seal",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 6,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "7b9bb1e9ec9e4e16957b548358931f41",
+            "kind": 12,
+            "amount": 0.02,
+            "levelAmounts": [
+              0.02,
+              0.02,
+              0.02,
+              0.04
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "生命",
+          "印"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 1,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0,
+        "animation": {
+          "preset": 4,
+          "tint": {
+            "r": 1.0,
+            "g": 0.74,
+            "b": 0.35,
+            "a": 1
+          },
+          "duration": 0.58,
+          "scale": 1.16,
+          "intensity": 1.1,
+          "count": 2,
+          "showIcon": true,
+          "rotation": 0
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": {
+        "displayName": "镇山印",
+        "kind": 0,
+        "attackShape": 2,
+        "cooldown": 6,
+        "damage": 14,
+        "range": 0.3799999952316284,
+        "projectileSpeed": 0.0,
+        "meleeHalfAngle": 55.0,
+        "knockbackImpulse": 2.0999999046325684,
+        "impactMultiplier": 1.149999976158142,
+        "growthPerActivation": 0,
+        "hitDelay": 0.11999999731779099,
+        "animationDuration": 0.30000001192092896,
+        "visualScale": 1.0,
+        "modifiesImpact": true,
+        "visualStyle": 0,
+        "visualCount": 1,
+        "visualSize": 0.85,
+        "effectScale": 1,
+        "projectileSize": 0.18,
+        "projectileVisual": 0,
+        "projectileIconId": "",
+        "hitVisual": 0
+      },
+      "hasWeapon": true
+    },
+    {
+      "assetId": "tortoise_core",
+      "item": {
+        "itemId": "tortoise_core",
+        "displayName": "龟灵核心",
+        "description": "六角色装备初版；野外掉落与首领身份分别配置。",
+        "iconId": "tortoise_core",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 3,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 30,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 7,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "ab8a0718ebc54c26b4664160c05f56b9",
+            "kind": 12,
+            "amount": 0.06,
+            "levelAmounts": [
+              0.06,
+              0.06,
+              0.06,
+              0.06
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "79c7bd42646f474f81955c4dce823b51",
+            "kind": 1,
+            "amount": 60,
+            "levelAmounts": [
+              60,
+              60,
+              60,
+              60
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "生命",
+          "首领"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 1,
+        "bossItem": true,
+        "bossExclusive": false,
+        "fixedLevel": 4,
+        "animation": {
+          "preset": 15,
+          "tint": {
+            "r": 0.47000000000000003,
+            "g": 1,
+            "b": 0.35,
+            "a": 1
+          },
+          "duration": 0.81,
+          "scale": 1.54,
+          "intensity": 1.2,
+          "count": 5,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "slime_core",
+      "item": {
+        "itemId": "slime_core",
+        "displayName": "史莱姆核心",
+        "description": "八团史莱姆的统一意识。固定四级：每4秒先增加本场最大生命2%，再造成自身最大生命6%的伤害。",
+        "iconId": "slime_core",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 3,
+        "minShopDay": 1,
+        "shopWeight": 3,
+        "price": 30,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0,
+        "activationCooldown": 4,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "f4fc1c40d2934ae18ffea682754d1868",
+            "kind": 11,
+            "amount": 0.02,
+            "levelAmounts": [
+              0.02,
+              0.02,
+              0.02,
+              0.02
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "0625e45874134b3cb62f218e6104f51b",
+            "kind": 12,
+            "amount": 0.06,
+            "levelAmounts": [
+              0.06,
+              0.06,
+              0.06,
+              0.06
+            ],
+            "levelGrowthAmounts": [],
+            "growthPerActivation": 0,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "生命",
+          "史莱姆",
+          "首领"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "acquisition": 1,
+        "bossItem": true,
+        "bossExclusive": false,
+        "fixedLevel": 4,
+        "animation": {
+          "preset": 15,
+          "tint": {
+            "r": 0.4,
+            "g": 1,
+            "b": 0.35,
+            "a": 1
+          },
+          "duration": 0.85,
+          "scale": 1.5,
+          "intensity": 1.0,
+          "count": 4,
+          "showIcon": true,
+          "rotation": -8
+        },
+        "animationSchemaVersion": 1
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "antler_guard",
+      "item": {
+        "itemId": "antler_guard",
+        "displayName": "青角护符",
+        "description": "绿角斥候把脱落的角磨成护符。周期获盾并少量治疗；不额外触发撞击。",
+        "iconId": "ram",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 2,
+        "shopWeight": 2,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "antler:shield",
+            "kind": 1,
+            "amount": 24,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              24,
+              48,
+              96,
+              192
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "antler:heal",
+            "kind": 2,
+            "amount": 3,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              3,
+              6,
+              12,
+              24
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "护符",
+          "盾"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 9,
+          "tint": {
+            "r": 0.45,
+            "g": 0.85,
+            "b": 0.35,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.16,
+          "intensity": 1.2,
+          "count": 1,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1,
+        "acquisition": 0,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "spore_lantern",
+      "item": {
+        "itemId": "spore_lantern",
+        "displayName": "矿孢灯",
+        "description": "孢子矿怪照亮废矿的活体灯。每次释放向敌人叠毒并为自身获盾。",
+        "iconId": "apprentice_venom",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 2,
+        "shopWeight": 2,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 5,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "spore:poison",
+            "kind": 3,
+            "amount": 0.35,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              0.35,
+              0.7,
+              1.4,
+              2.8
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "spore:shield",
+            "kind": 1,
+            "amount": 12,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              12,
+              24,
+              48,
+              96
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "灯",
+          "毒"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 11,
+          "tint": {
+            "r": 0.65,
+            "g": 0.8,
+            "b": 0.2,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.16,
+          "intensity": 1.2,
+          "count": 1,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1,
+        "acquisition": 0,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "storm_feather",
+      "item": {
+        "itemId": "storm_feather",
+        "displayName": "电羽针",
+        "description": "电羽球脱落的导电羽。周期直伤，无麻痹或连锁；装备速度加成随等级翻倍。",
+        "iconId": "crossbow",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 2,
+        "shopWeight": 2,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 3,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "feather:damage",
+            "kind": 0,
+            "amount": 20,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              20,
+              40,
+              80,
+              160
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "电",
+          "装置"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 6,
+          "tint": {
+            "r": 0.35,
+            "g": 0.8,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.16,
+          "intensity": 1.2,
+          "count": 1,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1,
+        "acquisition": 0,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "red_duel_banner",
+      "item": {
+        "itemId": "red_duel_banner",
+        "displayName": "赤角战旗",
+        "description": "赤角斗兽的挑战旗。每次释放同时造成直伤并获盾，不存在低血隐藏增伤。",
+        "iconId": "spear",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 2,
+        "shopWeight": 2,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 5,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "banner:damage",
+            "kind": 0,
+            "amount": 14,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              14,
+              28,
+              56,
+              112
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "banner:shield",
+            "kind": 1,
+            "amount": 20,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              20,
+              40,
+              80,
+              160
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "旗",
+          "盾"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 8,
+          "tint": {
+            "r": 1,
+            "g": 0.35,
+            "b": 0.25,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.16,
+          "intensity": 1.2,
+          "count": 1,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1,
+        "acquisition": 0,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "saw_flywheel",
+      "item": {
+        "itemId": "saw_flywheel",
+        "displayName": "锯齿飞轮",
+        "description": "野猪背负的旧锯轮。每次释放直伤；随后该词条永久成长，沿用装备成长账本。",
+        "iconId": "wheel",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 2,
+        "shopWeight": 2,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 3.5,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "saw:damage",
+            "kind": 0,
+            "amount": 21,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0.12,
+            "levelAmounts": [
+              21,
+              42,
+              84,
+              168
+            ],
+            "levelGrowthAmounts": [
+              0.12,
+              0.24,
+              0.48,
+              0.96
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "装置",
+          "成长"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 7,
+          "tint": {
+            "r": 0.85,
+            "g": 0.65,
+            "b": 0.3,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.16,
+          "intensity": 1.2,
+          "count": 1,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1,
+        "acquisition": 0,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "frost_mirror",
+      "item": {
+        "itemId": "frost_mirror",
+        "displayName": "霜壳镜",
+        "description": "冰壳蟹的镜面甲。周期获盾；自身护盾由正数被打至零时反击直伤，独立冷却3秒。冰晶不冻结。",
+        "iconId": "frost_shell",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 2,
+        "shopWeight": 2,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 6,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "mirror:shield",
+            "kind": 1,
+            "amount": 28,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              28,
+              56,
+              112,
+              224
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "mirror:break",
+            "kind": 0,
+            "amount": 12,
+            "trigger": 3,
+            "triggerCooldown": 3,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              12,
+              24,
+              48,
+              96
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "盾",
+          "霜"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 9,
+          "tint": {
+            "r": 0.45,
+            "g": 0.85,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.16,
+          "intensity": 1.2,
+          "count": 1,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1,
+        "acquisition": 0,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "crown_command",
+      "item": {
+        "itemId": "crown_command",
+        "displayName": "失冠敕令",
+        "description": "失冠构造体反复执行的守城令。周期获盾并消耗当前盾10%转伤；按词条顺序先加盾后消耗。",
+        "iconId": "holy_bell",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 2,
+        "shopWeight": 2,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 6,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "crown:shield",
+            "kind": 1,
+            "amount": 32,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              32,
+              64,
+              128,
+              256
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "crown:convert",
+            "kind": 13,
+            "amount": 0.1,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              0.1,
+              0.1,
+              0.1,
+              0.1
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "盾",
+          "装置"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 8,
+          "tint": {
+            "r": 1,
+            "g": 0.8,
+            "b": 0.3,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.16,
+          "intensity": 1.2,
+          "count": 1,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1,
+        "acquisition": 0,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "furnace_bellows",
+      "item": {
+        "itemId": "furnace_bellows",
+        "displayName": "余火风箱",
+        "description": "熔炉巨灵留下的风箱。每次释放为敌人加火并为自己获盾；火不是持续固定秒伤。",
+        "iconId": "furnace_armor",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 2,
+        "shopWeight": 2,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 5,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "bellows:burn",
+            "kind": 4,
+            "amount": 3,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              3,
+              4.8,
+              7.2,
+              10.8
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "bellows:shield",
+            "kind": 1,
+            "amount": 16,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              16,
+              32,
+              64,
+              128
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "火",
+          "装置"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 12,
+          "tint": {
+            "r": 1,
+            "g": 0.45,
+            "b": 0.15,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.16,
+          "intensity": 1.2,
+          "count": 1,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1,
+        "acquisition": 0,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "storm_capacitor",
+      "item": {
+        "itemId": "storm_capacitor",
+        "displayName": "雷鳞电容",
+        "description": "机械龙的储能鳞片。周期直伤与获盾，不消耗已有护盾，不附带眩晕。",
+        "iconId": "arc_cannon",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 2,
+        "shopWeight": 2,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 5,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "capacitor:damage",
+            "kind": 0,
+            "amount": 28,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              28,
+              56,
+              112,
+              224
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "capacitor:shield",
+            "kind": 1,
+            "amount": 12,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              12,
+              24,
+              48,
+              96
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "电",
+          "装置"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 6,
+          "tint": {
+            "r": 0.4,
+            "g": 0.65,
+            "b": 1,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.16,
+          "intensity": 1.2,
+          "count": 1,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1,
+        "acquisition": 0,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "thorn_seed",
+      "item": {
+        "itemId": "thorn_seed",
+        "displayName": "荆棘种匣",
+        "description": "园丁把毒种封在护盾里。周期获盾；破盾给敌人叠毒，独立冷却3秒，不是每次受伤反毒。",
+        "iconId": "plague_distiller",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 2,
+        "shopWeight": 2,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 4,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "thorn:shield",
+            "kind": 1,
+            "amount": 20,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              20,
+              40,
+              80,
+              160
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "thorn:break",
+            "kind": 3,
+            "amount": 0.2,
+            "trigger": 3,
+            "triggerCooldown": 3,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              0.2,
+              0.4,
+              0.8,
+              1.6
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "盾",
+          "毒"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 11,
+          "tint": {
+            "r": 0.35,
+            "g": 0.8,
+            "b": 0.4,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.16,
+          "intensity": 1.2,
+          "count": 1,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1,
+        "acquisition": 0,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0
+      },
+      "weapon": null,
+      "hasWeapon": false
+    },
+    {
+      "assetId": "salvage_clock",
+      "item": {
+        "itemId": "salvage_clock",
+        "displayName": "拾荒发条",
+        "description": "拾荒机匠重装的旧发条。周期造成直伤并治疗；不会自动吸收装备或生成金币。",
+        "iconId": "devourer",
+        "generatedItemId": "",
+        "kind": 0,
+        "rarity": 1,
+        "minShopDay": 2,
+        "shopWeight": 2,
+        "price": 16,
+        "healthBonus": 0,
+        "speedBonus": 0,
+        "impactBonus": 0,
+        "impactTakenReduction": 0,
+        "injectionAmount": 10.0,
+        "productionInterval": 0.0,
+        "activationCooldown": 6,
+        "injectionStat": 0,
+        "randomPotionProducer": false,
+        "effects": [
+          {
+            "id": "salvage:damage",
+            "kind": 0,
+            "amount": 18,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              18,
+              36,
+              72,
+              144
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          },
+          {
+            "id": "salvage:heal",
+            "kind": 2,
+            "amount": 6,
+            "trigger": 0,
+            "triggerCooldown": 1,
+            "growthPerActivation": 0,
+            "levelAmounts": [
+              6,
+              12,
+              24,
+              48
+            ],
+            "levelGrowthAmounts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "matchTag": "",
+            "criticalChance": 0,
+            "criticalMultiplier": 2
+          }
+        ],
+        "tags": [
+          "装置",
+          "治疗"
+        ],
+        "potionLifetime": 0,
+        "releaseSoundId": "",
+        "hitSoundId": "",
+        "releaseVolume": 1,
+        "hitVolume": 1,
+        "animation": {
+          "preset": 13,
+          "tint": {
+            "r": 1,
+            "g": 0.72,
+            "b": 0.35,
+            "a": 1
+          },
+          "duration": 0.66,
+          "scale": 1.16,
+          "intensity": 1.2,
+          "count": 1,
+          "showIcon": true,
+          "rotation": 8
+        },
+        "animationSchemaVersion": 1,
+        "acquisition": 0,
+        "bossItem": false,
+        "bossExclusive": false,
+        "fixedLevel": 0
+      },
+      "weapon": null,
+      "hasWeapon": false
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: ember_crown
+  m_EditorClassIdentifier: 
+  itemId: "ember_crown"
+  displayName: "\u4f59\u70ec\u738b\u51a0"
+  description: "\u516d\u89d2\u8272\u88c5\u5907\u521d\u7248\uff1b\u91ce\u5916\u6389\u843d\u4e0e\u9996\u9886\u8eab\u4efd\u5206\u522b\u914d\u7f6e\u3002"
+  iconId: "ember_crown"
+  generatedItemId: ""
+  kind: 0
+  rarity: 3
+  minShopDay: 1
+  shopWeight: 3
+  price: 30
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  injectionAmount: 10.0
+  productionInterval: 0
+  activationCooldown: 5
+  injectionStat: 0
+  randomPotionProducer: 0
+  effects:
+  - id: "bc2257fad18e46d881365179e70b40a5"
+    kind: 1
+    amount: 55
+    levelAmounts:
+    - 55
+    - 55
+    - 55
+    - 55
+    levelGrowthAmounts: []
+    growthPerActivation: 0
+    trigger: 0
+    triggerCooldown: 1
+    matchTag: ""
+    criticalChance: 0
+    criticalMultiplier: 2
+  - id: "ec3d11b1b03a4220aa4ff18bd3ea10cf"
+    kind: 4
+    amount: 3
+    levelAmounts:
+    - 3
+    - 3
+    - 3
+    - 3
+    levelGrowthAmounts:
+    - 0
+    - 0.0
+    - 0.0
+    - 0.0
+    growthPerActivation: 0
+    trigger: 0
+    triggerCooldown: 1
+    matchTag: ""
+    criticalChance: 0
+    criticalMultiplier: 2
+  tags:
+  - "\u706b"
+  - "\u9996\u9886"
+  potionLifetime: 0
+  releaseSoundId: ""
+  hitSoundId: ""
+  releaseVolume: 1
+  hitVolume: 1
+  acquisition: 1
+  bossItem: 1
+  bossExclusive: 0
+  fixedLevel: 4
+  weapon: {fileID: 0}
+  animation:
+    preset: 12
+    tint: {r: 1, g: 0.32, b: 0.08, a: 1}
+    duration: 0.81
+    scale: 1.3
+    intensity: 1.2
+    count: 5
+    showIcon: 1
+    rotation: 8

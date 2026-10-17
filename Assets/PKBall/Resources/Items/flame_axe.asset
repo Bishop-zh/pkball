@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: flame_axe
+  m_EditorClassIdentifier: 
+  itemId: "flame_axe"
+  displayName: "焰锋斧"
+  description: "周期激活；详情显示分类与效果。"
+  iconId: "flame_axe"
+  kind: 0
+  rarity: 1
+  price: 24
+  minShopDay: 2
+  shopWeight: 3
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  activationCooldown: 3.5
+  productionInterval: 0
+  randomPotionProducer: 0
+  effects:
+  - id: "effect:0:Burn"
+    kind: 4
+    amount: 3
+    growthPerActivation: 0
+    matchTag: ""
+    levelAmounts:
+    - 3
+    - 4.8
+    - 7.2
+    - 10.8
+    levelGrowthAmounts:
+    - 0
+    - 0.0
+    - 0.0
+    - 0.0
+  tags:
+  - "斧"
+  - "物理"
+  - "火"
+  weapon: {fileID: 11400000, guid: 052c3e815e2a4b40a42c7d6f13f8cf00, type: 2}
+  animation:
+    preset: 2
+    tint: {r: 0.79, g: 0.88, b: 1, a: 1}
+    duration: 0.66
+    scale: 1.16
+    intensity: 1.2
+    count: 3
+    showIcon: 1
+    rotation: 8

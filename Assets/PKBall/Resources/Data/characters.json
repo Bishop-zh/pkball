@@ -1,0 +1,1167 @@
+{
+  "version": 1,
+  "characters": [
+    {
+      "id": "cast_normal",
+      "tier": "普通",
+      "story": "边境信使长大后的角仍是青色，替山民冲开废城路障；它只是熟练斥候，还无法正面破城。",
+      "hook": "青角护符保住冲锋后的血线，长矛接敌。",
+      "counter": "惧怕稳定远程消耗；速度不等于必中。",
+      "artNote": "沿用已导入角色美术",
+      "character": {
+        "name": "绿角冲锋兽",
+        "visualId": "monster_normal",
+        "health": 300,
+        "speed": 100,
+        "slots": [
+          {
+            "itemId": "ram",
+            "level": 1
+          },
+          {
+            "itemId": "boots",
+            "level": 1
+          },
+          {
+            "itemId": "antler_guard",
+            "level": 1
+          },
+          {
+            "itemId": "spear",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "antler_guard",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_spore",
+      "tier": "普通",
+      "story": "废矿守夜人被菌群寄居，矿镐负责开路，矿孢灯负责驱赶盗矿者；离开矿脉后没有无穷养分。",
+      "hook": "矿灯叠毒与护盾，慢慢把战斗拖进毒区。",
+      "counter": "治疗清毒、快速进攻；矿镐经济价值不等于当场伤害。",
+      "artNote": "沿用已导入角色美术",
+      "character": {
+        "name": "孢子矿怪",
+        "visualId": "monster_spore",
+        "health": 300,
+        "speed": 100,
+        "slots": [
+          {
+            "itemId": "pickaxe",
+            "level": 1
+          },
+          {
+            "itemId": "spore_lantern",
+            "level": 1
+          },
+          {
+            "itemId": "apprentice_venom",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "shield_emitter",
+            "level": 1
+          },
+          {
+            "itemId": "spore_lantern",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_spark",
+      "tier": "普通",
+      "story": "幼年雷鸟把落雷藏进羽管，是机械龙身旁的送信者；只能放出短促电针，无法呼唤天雷。",
+      "hook": "电羽针与追踪弩组成快节奏远程压迫。",
+      "counter": "薄血且没有硬控，高盾能争取反击时间。",
+      "artNote": "沿用已导入角色美术",
+      "character": {
+        "name": "电羽球",
+        "visualId": "monster_spark",
+        "health": 300,
+        "speed": 100,
+        "slots": [
+          {
+            "itemId": "crossbow",
+            "level": 1
+          },
+          {
+            "itemId": "afterburner",
+            "level": 1
+          },
+          {
+            "itemId": "storm_feather",
+            "level": 1
+          },
+          {
+            "itemId": "boots",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "storm_feather",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_bamboo_spirit",
+      "tier": "普通",
+      "story": "断剑在竹林百年才生出灵智，如今仍是养剑学徒；需要时间结成剑阵，剑灵核心属于未来觉醒。",
+      "hook": "两把青竹飞剑持续留场，剑匣催动剑类。",
+      "counter": "启动慢，前期集火能阻止剑阵成形。",
+      "artNote": "沿用已导入角色美术",
+      "character": {
+        "name": "青竹剑灵",
+        "visualId": "monster_bamboo_spirit",
+        "health": 300,
+        "speed": 100,
+        "slots": [
+          {
+            "itemId": "apprentice_sword",
+            "level": 1
+          },
+          {
+            "itemId": "sword_case",
+            "level": 1
+          },
+          {
+            "itemId": "green_flying_sword",
+            "level": 1
+          },
+          {
+            "itemId": "green_flying_sword",
+            "level": 1
+          },
+          {
+            "itemId": "boots",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_red_alchemist",
+      "tier": "普通",
+      "story": "山村游医用赤炉炼制便宜丹药，血葫芦保存失败药渣；尚未炼出真正的丹心。",
+      "hook": "生产与护盾保护慢热输出。",
+      "counter": "生产收益偏向跨战养成，短局爆发较弱。",
+      "artNote": "沿用已导入角色美术",
+      "character": {
+        "name": "赤丹药修",
+        "visualId": "monster_red_alchemist",
+        "health": 300,
+        "speed": 100,
+        "slots": [
+          {
+            "itemId": "random_brewer",
+            "level": 1
+          },
+          {
+            "itemId": "blood_gourd",
+            "level": 1
+          },
+          {
+            "itemId": "red_potion_furnace",
+            "level": 1
+          },
+          {
+            "itemId": "health_lab",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "shield_emitter",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_elite",
+      "tier": "精英",
+      "story": "边军退役的角斗冠军，把旧战旗钉在背上；它比青角更能守住阵地，却不再追求速度。",
+      "hook": "战旗同时攻守，长矛与撞角持续施压。",
+      "counter": "毒穿盾，拖久后缺少治疗。",
+      "artNote": "沿用已导入角色美术",
+      "character": {
+        "name": "赤角斗兽",
+        "visualId": "monster_elite",
+        "health": 360,
+        "speed": 100,
+        "slots": [
+          {
+            "itemId": "spear",
+            "level": 1
+          },
+          {
+            "itemId": "plating",
+            "level": 1
+          },
+          {
+            "itemId": "ram",
+            "level": 1
+          },
+          {
+            "itemId": "red_duel_banner",
+            "level": 1
+          },
+          {
+            "itemId": "red_duel_banner",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_saw",
+      "tier": "精英",
+      "story": "伐木场逃出的驮兽背着尚未停转的飞轮，越跑磨齿越锋利；没有真正的狂暴免伤。",
+      "hook": "双飞轮稳定直伤并留下永久成长。",
+      "counter": "缺少厚盾，对高防守构筑需要成长时间。",
+      "artNote": "沿用已导入角色美术",
+      "character": {
+        "name": "锯齿野猪",
+        "visualId": "monster_saw",
+        "health": 360,
+        "speed": 100,
+        "slots": [
+          {
+            "itemId": "hammer",
+            "level": 1
+          },
+          {
+            "itemId": "boots",
+            "level": 1
+          },
+          {
+            "itemId": "afterburner",
+            "level": 1
+          },
+          {
+            "itemId": "saw_flywheel",
+            "level": 1
+          },
+          {
+            "itemId": "saw_flywheel",
+            "level": 1
+          },
+          {
+            "itemId": "antler_guard",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_frost",
+      "tier": "精英",
+      "story": "寒潭守门者把旧盾磨成镜壳，碎裂时冰片飞散；冰是外形，不会让时间停滞。",
+      "hook": "霜壳镜破盾反击，盾破时才有戏剧转折。",
+      "counter": "毒和决胜耗损穿盾，不触发破盾反击。",
+      "artNote": "沿用已导入角色美术",
+      "character": {
+        "name": "冰壳蟹",
+        "visualId": "monster_frost",
+        "health": 360,
+        "speed": 100,
+        "slots": [
+          {
+            "itemId": "crossbow",
+            "level": 1
+          },
+          {
+            "itemId": "shield_emitter",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "frost_mirror",
+            "level": 1
+          },
+          {
+            "itemId": "frost_mirror",
+            "level": 1
+          },
+          {
+            "itemId": "plating",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_slime",
+      "tier": "精英",
+      "story": "八团分体共享一颗核心，吞下的残片只能在本场临时膨胀；它并非永不衰竭的生命神。",
+      "hook": "一核心七粘液，越打体型和生命越大。",
+      "counter": "前期爆发和按目标生命打击；决胜削弱成长附带补血。",
+      "artNote": "沿用已导入角色美术",
+      "character": {
+        "name": "八团史莱姆",
+        "visualId": "monster_slime",
+        "health": 360,
+        "speed": 100,
+        "slots": [
+          {
+            "itemId": "slime_core",
+            "level": 4
+          },
+          {
+            "itemId": "slime_mucus",
+            "level": 1
+          },
+          {
+            "itemId": "slime_mucus",
+            "level": 1
+          },
+          {
+            "itemId": "slime_mucus",
+            "level": 1
+          },
+          {
+            "itemId": "slime_mucus",
+            "level": 1
+          },
+          {
+            "itemId": "slime_mucus",
+            "level": 1
+          },
+          {
+            "itemId": "slime_mucus",
+            "level": 1
+          },
+          {
+            "itemId": "slime_mucus",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_plague_alchemist",
+      "tier": "精英",
+      "story": "瘟疫城最后的药剂师把解药研究反转成毒剂，蒸馏器仍会产出偶然有效的药。",
+      "hook": "毒喷管、蒸馏器和瘟疫之心形成持久压力。",
+      "counter": "治疗可清毒；缺乏瞬时防御。",
+      "artNote": "沿用已导入角色美术",
+      "character": {
+        "name": "瘟疫炼金师",
+        "visualId": "monster_plague_alchemist",
+        "health": 360,
+        "speed": 100,
+        "slots": [
+          {
+            "itemId": "plague_heart",
+            "level": 4
+          },
+          {
+            "itemId": "plague_distiller",
+            "level": 1
+          },
+          {
+            "itemId": "plague_sprayer",
+            "level": 1
+          },
+          {
+            "itemId": "plague_sprayer",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "boots",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_saint_guard",
+      "tier": "精英",
+      "story": "圣城闭门后仍守着钟楼的守卫，敲钟积盾，挥锤时把信仰铸成的一部分护盾化为裁决。",
+      "hook": "盾先积蓄，再由裁决之锤消耗转伤。",
+      "counter": "转伤会露出防守空档，毒绕过盾。",
+      "artNote": "沿用已导入角色美术",
+      "character": {
+        "name": "圣钟守卫",
+        "visualId": "monster_saint_guard",
+        "health": 360,
+        "speed": 100,
+        "slots": [
+          {
+            "itemId": "saint_seal",
+            "level": 4
+          },
+          {
+            "itemId": "judgement_hammer",
+            "level": 1
+          },
+          {
+            "itemId": "holy_bell",
+            "level": 1
+          },
+          {
+            "itemId": "holy_bell",
+            "level": 1
+          },
+          {
+            "itemId": "plating",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_boss",
+      "tier": "首领",
+      "story": "失踪国王留下的自动守城机，王冠里只有最后一道敕令；有城防级耐久，没有王权神迹。",
+      "hook": "敕令先加盾再转伤，重锤守住近身区域。",
+      "counter": "持续穿盾伤害，慢速时容易被远程消耗。",
+      "artNote": "沿用已导入角色美术",
+      "character": {
+        "name": "王冠构造体",
+        "visualId": "monster_boss",
+        "health": 420,
+        "speed": 95,
+        "slots": [
+          {
+            "itemId": "hammer",
+            "level": 1
+          },
+          {
+            "itemId": "core",
+            "level": 1
+          },
+          {
+            "itemId": "plating",
+            "level": 1
+          },
+          {
+            "itemId": "crown_command",
+            "level": 1
+          },
+          {
+            "itemId": "crown_command",
+            "level": 1
+          },
+          {
+            "itemId": "shield_emitter",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_furnace",
+      "tier": "首领",
+      "story": "城底熔炉诞生的火灵，把每一口余火送回风箱；离开熔炉后必须在进攻与保温之间取舍。",
+      "hook": "风箱加火并获盾，火斧补足近战。",
+      "counter": "护盾折抵火伤更有效，火层会自然衰减。",
+      "artNote": "沿用已导入角色美术",
+      "character": {
+        "name": "熔炉巨灵",
+        "visualId": "monster_furnace",
+        "health": 420,
+        "speed": 95,
+        "slots": [
+          {
+            "itemId": "flame_axe",
+            "level": 1
+          },
+          {
+            "itemId": "afterburner",
+            "level": 1
+          },
+          {
+            "itemId": "ram",
+            "level": 1
+          },
+          {
+            "itemId": "furnace_bellows",
+            "level": 1
+          },
+          {
+            "itemId": "furnace_bellows",
+            "level": 1
+          },
+          {
+            "itemId": "furnace_armor",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_storm",
+      "tier": "首领",
+      "story": "旧城天幕的储能装置获得龙形躯壳，雷鳞可以放电护体；储能器会冷却，没有无限雷暴。",
+      "hook": "双电容与电弧炮形成周期爆发。",
+      "counter": "发射间隙可被快攻压制，盾量不如专职守卫。",
+      "artNote": "沿用已导入角色美术",
+      "character": {
+        "name": "雷霆机械龙",
+        "visualId": "monster_storm",
+        "health": 420,
+        "speed": 95,
+        "slots": [
+          {
+            "itemId": "arc_cannon",
+            "level": 1
+          },
+          {
+            "itemId": "shield_emitter",
+            "level": 1
+          },
+          {
+            "itemId": "core",
+            "level": 1
+          },
+          {
+            "itemId": "storm_capacitor",
+            "level": 1
+          },
+          {
+            "itemId": "storm_capacitor",
+            "level": 1
+          },
+          {
+            "itemId": "plating",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_reaper",
+      "tier": "首领",
+      "story": "见习引魂者借用真正死神的一段镰影；能切去生命的一部分，却没有绝对斩杀权。",
+      "hook": "镰刀按目标最大生命打击，披风提供短暂无敌。",
+      "counter": "镰刀冷却长；决胜耗损绕过无敌。",
+      "artNote": "沿用已导入角色美术",
+      "character": {
+        "name": "小死神",
+        "visualId": "monster_reaper",
+        "health": 420,
+        "speed": 95,
+        "slots": [
+          {
+            "itemId": "death_scythe",
+            "level": 4
+          },
+          {
+            "itemId": "death_cloak",
+            "level": 1
+          },
+          {
+            "itemId": "bone_talisman",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_ash_knight",
+      "tier": "首领",
+      "story": "焚城之战后留下的守誓者，余烬王冠只承认仍在战斗的人；铠甲破碎时火焰才泄出。",
+      "hook": "燃烧目标命中得盾，破盾再次添火。",
+      "counter": "需要命中与燃烧条件，毒穿盾可打断防守优势。",
+      "artNote": "沿用已导入角色美术",
+      "character": {
+        "name": "灰烬骑士",
+        "visualId": "monster_ash_knight",
+        "health": 420,
+        "speed": 95,
+        "slots": [
+          {
+            "itemId": "ember_crown",
+            "level": 4
+          },
+          {
+            "itemId": "furnace_armor",
+            "level": 1
+          },
+          {
+            "itemId": "ash_greatsword",
+            "level": 1
+          },
+          {
+            "itemId": "ash_greatsword",
+            "level": 1
+          },
+          {
+            "itemId": "plating",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "cast_frost_tortoise",
+      "tier": "首领",
+      "story": "负山而行的古老龟灵，每次镇山印都消耗时间凝聚；古老意味着耐力，并非不会失败。",
+      "hook": "龟甲积盾再生，镇山印借自身最大生命打击。",
+      "counter": "慢启动且决胜压低恢复，毒与百分比攻击有价值。",
+      "artNote": "沿用已导入角色美术",
+      "character": {
+        "name": "霜山龟灵",
+        "visualId": "monster_frost_tortoise",
+        "health": 420,
+        "speed": 95,
+        "slots": [
+          {
+            "itemId": "tortoise_core",
+            "level": 4
+          },
+          {
+            "itemId": "mountain_seal",
+            "level": 1
+          },
+          {
+            "itemId": "frost_shell",
+            "level": 1
+          },
+          {
+            "itemId": "frost_shell",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "plating",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "thorn_keeper",
+      "tier": "普通",
+      "story": "曾给瘟疫城种药的园丁，如今用盾壳运输毒种；每次种匣碎裂都是下一次播种。",
+      "hook": "破盾播毒，毒盾混合路线。",
+      "counter": "对手绕盾打毒会减少播种次数。",
+      "artNote": "复用现有外观；新立绘待制作",
+      "character": {
+        "name": "荆棘园丁",
+        "visualId": "monster_spore",
+        "health": 300,
+        "speed": 100,
+        "slots": [
+          {
+            "itemId": "thorn_seed",
+            "level": 1
+          },
+          {
+            "itemId": "thorn_seed",
+            "level": 1
+          },
+          {
+            "itemId": "spore_lantern",
+            "level": 1
+          },
+          {
+            "itemId": "poison_dagger",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "boots",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "scrap_tinker",
+      "tier": "普通",
+      "story": "捡回城防报废零件的年轻匠人，发条只够支持一轮修补；梦想修好失冠构造体。",
+      "hook": "发条治疗与直伤，稳定但不爆发。",
+      "counter": "缺少大量护盾，快攻能抢在修补前。",
+      "artNote": "复用现有外观；新立绘待制作",
+      "character": {
+        "name": "拾荒机匠",
+        "visualId": "player_engineer",
+        "health": 300,
+        "speed": 100,
+        "slots": [
+          {
+            "itemId": "salvage_clock",
+            "level": 1
+          },
+          {
+            "itemId": "salvage_clock",
+            "level": 1
+          },
+          {
+            "itemId": "storm_feather",
+            "level": 1
+          },
+          {
+            "itemId": "hammer",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "boots",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "frost_ranger",
+      "tier": "普通",
+      "story": "与冰壳蟹交换镜甲的寒潭猎手，靠镜面掩护弩箭；镜甲不是冰冻法术。",
+      "hook": "远程追击与破盾反击。",
+      "counter": "毒穿盾；近身重击可穿过薄盾余量。",
+      "artNote": "复用现有外观；新立绘待制作",
+      "character": {
+        "name": "霜镜游侠",
+        "visualId": "monster_frost",
+        "health": 300,
+        "speed": 100,
+        "slots": [
+          {
+            "itemId": "frost_mirror",
+            "level": 1
+          },
+          {
+            "itemId": "crossbow",
+            "level": 1
+          },
+          {
+            "itemId": "storm_feather",
+            "level": 1
+          },
+          {
+            "itemId": "boots",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "antler_guard",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "thunder_courier",
+      "tier": "精英",
+      "story": "成年的电羽信使偷带了一片机械龙雷鳞，用速度抵达战场，却无法承受龙的全部电流。",
+      "hook": "三电羽配电容，密集脉冲。",
+      "counter": "护盾储存与反击，缺少稳定治疗。",
+      "artNote": "复用现有外观；新立绘待制作",
+      "character": {
+        "name": "逐雷信使",
+        "visualId": "monster_spark",
+        "health": 360,
+        "speed": 100,
+        "slots": [
+          {
+            "itemId": "storm_feather",
+            "level": 1
+          },
+          {
+            "itemId": "storm_feather",
+            "level": 1
+          },
+          {
+            "itemId": "storm_feather",
+            "level": 1
+          },
+          {
+            "itemId": "storm_capacitor",
+            "level": 1
+          },
+          {
+            "itemId": "boots",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "ember_stoker",
+      "tier": "精英",
+      "story": "熔炉巨灵挑选的司炉人，把火种缝进铠甲；主动添火，甲裂时泄火，始终需要护盾维持。",
+      "hook": "双风箱与熔炉甲制造火盾交替。",
+      "counter": "高盾减轻火伤，毒可穿过铠甲。",
+      "artNote": "复用现有外观；新立绘待制作",
+      "character": {
+        "name": "余火司炉",
+        "visualId": "monster_furnace",
+        "health": 360,
+        "speed": 100,
+        "slots": [
+          {
+            "itemId": "furnace_bellows",
+            "level": 1
+          },
+          {
+            "itemId": "furnace_bellows",
+            "level": 1
+          },
+          {
+            "itemId": "furnace_armor",
+            "level": 1
+          },
+          {
+            "itemId": "flame_axe",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "antler_guard",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "uncrowned_warden",
+      "tier": "首领",
+      "story": "王冠构造体的最后一位禁卫，守的已不是国王而是残存居民；将城防敕令化为自身盾击。",
+      "hook": "圣钟积盾、敕令小额转伤、裁决重击。",
+      "counter": "多次转伤消耗自己的盾，毒和集火利用空档。",
+      "artNote": "复用现有外观；新立绘待制作",
+      "character": {
+        "name": "失冠禁卫",
+        "visualId": "monster_boss",
+        "health": 420,
+        "speed": 95,
+        "slots": [
+          {
+            "itemId": "crown_command",
+            "level": 1
+          },
+          {
+            "itemId": "crown_command",
+            "level": 1
+          },
+          {
+            "itemId": "holy_bell",
+            "level": 1
+          },
+          {
+            "itemId": "judgement_hammer",
+            "level": 1
+          },
+          {
+            "itemId": "plating",
+            "level": 1
+          },
+          {
+            "itemId": "padding",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          },
+          {
+            "itemId": "",
+            "level": 1
+          }
+        ]
+      }
+    }
+  ],
+  "matches": [
+    {
+      "id": "episode_01",
+      "title": "青角与矿灯",
+      "leftId": "cast_normal",
+      "rightId": "cast_spore",
+      "premise": "冲锋能否赶在毒层叠起前结束？"
+    },
+    {
+      "id": "episode_02",
+      "title": "寒潭借甲",
+      "leftId": "frost_ranger",
+      "rightId": "thorn_keeper",
+      "premise": "两种破盾反击：直伤冰片与毒种，谁更适合拉长战斗？"
+    },
+    {
+      "id": "episode_03",
+      "title": "拾荒者试剑",
+      "leftId": "scrap_tinker",
+      "rightId": "cast_bamboo_spirit",
+      "premise": "稳定修补能否撑过剑阵启动？"
+    },
+    {
+      "id": "episode_04",
+      "title": "送信者与司炉人",
+      "leftId": "thunder_courier",
+      "rightId": "ember_stoker",
+      "premise": "电流脉冲对上火盾循环。"
+    },
+    {
+      "id": "episode_05",
+      "title": "圣钟审判八团",
+      "leftId": "cast_saint_guard",
+      "rightId": "cast_slime",
+      "premise": "积盾转伤与生命膨胀的成长对局。"
+    },
+    {
+      "id": "episode_06",
+      "title": "见习死神叩山",
+      "leftId": "cast_reaper",
+      "rightId": "cast_frost_tortoise",
+      "premise": "百分比镰刀对上古老耐力，故事强弱未必决定结果。"
+    },
+    {
+      "id": "episode_07",
+      "title": "失冠之战",
+      "leftId": "uncrowned_warden",
+      "rightId": "cast_boss",
+      "premise": "同属城防传承：裁决流与核心重锤流。"
+    },
+    {
+      "id": "episode_08",
+      "title": "雷火遗城",
+      "leftId": "cast_storm",
+      "rightId": "cast_ash_knight",
+      "premise": "机械雷鳞对上余烬铠甲。"
+    }
+  ]
+}

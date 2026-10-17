@@ -1,0 +1,53 @@
+# Unity-generated state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/MemoryCaptures/
+/Recordings/
+
+# Local builds, captures and working files
+/Build/
+/Builds/
+/Artifacts/
+/Preview/
+/.work/
+/.vs/
+/.vscode/
+*.csproj
+*.sln
+*.slnx
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.log
+*.tmp
+*.bak
+*.swp
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+.gitee-token*
+
+# Local archives and delivery copies
+/*.zip
+/*.7z
+/*.rar

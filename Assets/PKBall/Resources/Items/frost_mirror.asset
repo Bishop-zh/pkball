@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: frost_mirror
+  m_EditorClassIdentifier: 
+  itemId: "frost_mirror"
+  displayName: "\u971c\u58f3\u955c"
+  description: "\u51b0\u58f3\u87f9\u7684\u955c\u9762\u7532\u3002\u5468\u671f\u83b7\u76fe\uff1b\u81ea\u8eab\u62a4\u76fe\u7531\u6b63\u6570\u88ab\u6253\u81f3\u96f6\u65f6\u53cd\u51fb\u76f4\u4f24\uff0c\u72ec\u7acb\u51b7\u53743\u79d2\u3002\u51b0\u6676\u4e0d\u51bb\u7ed3\u3002"
+  iconId: "frost_shell"
+  generatedItemId: ""
+  kind: 0
+  rarity: 1
+  minShopDay: 2
+  shopWeight: 2
+  price: 16
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  injectionAmount: 10.0
+  productionInterval: 0.0
+  activationCooldown: 6
+  injectionStat: 0
+  randomPotionProducer: 0
+  effects:
+  - id: "mirror:shield"
+    kind: 1
+    amount: 28
+    trigger: 0
+    triggerCooldown: 1
+    growthPerActivation: 0
+    levelAmounts:
+    - 28
+    - 56
+    - 112
+    - 224
+    levelGrowthAmounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    matchTag: ""
+    criticalChance: 0
+    criticalMultiplier: 2
+  - id: "mirror:break"
+    kind: 0
+    amount: 12
+    trigger: 3
+    triggerCooldown: 3
+    growthPerActivation: 0
+    levelAmounts:
+    - 12
+    - 24
+    - 48
+    - 96
+    levelGrowthAmounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    matchTag: ""
+    criticalChance: 0
+    criticalMultiplier: 2
+  tags:
+  - "\u76fe"
+  - "\u971c"
+  potionLifetime: 0
+  releaseSoundId: ""
+  hitSoundId: ""
+  releaseVolume: 1
+  hitVolume: 1
+  animation:
+    preset: 9
+    tint:
+      r: 0.45
+      g: 0.85
+      b: 1
+      a: 1
+    duration: 0.66
+    scale: 1.16
+    intensity: 1.2
+    count: 1
+    showIcon: 1
+    rotation: 8
+  acquisition: 0
+  bossItem: 0
+  bossExclusive: 0
+  fixedLevel: 0
+  weapon: {fileID: 0}

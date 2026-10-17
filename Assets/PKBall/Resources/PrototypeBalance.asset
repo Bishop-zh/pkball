@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38db9044b6e5fb9449ef22b7a44077bd, type: 3}
+  m_Name: PrototypeBalance
+  m_EditorClassIdentifier: 
+  arenaHalfWidth: 5.8
+  arenaHalfDepth: 3.8
+  baseSpeed: 4
+  minimumSpeed: 1.5
+  maximumSpeed: 12
+  massMinimum: 0.7
+  massMaximum: 2.5
+  speedRecovery: 0.35
+  wallReturnStrength: 0.65
+  wallReturnCooldown: 0.12
+  impactThreshold: 1.5
+  impactBaseDamage: 4
+  impactSpeedDamage: 1.8
+  impactPairCooldown: 0.25
+  impactMaxTargetHealthFraction: 0.18
+  maximumEnergy: 100
+  energyPerSecond: 0.8
+  energyPerSpeed: 0.15
+  impactEnergyBase: 2
+  impactEnergyPerStrength: 0.5
+  zeroEnergyDamagePerMetre: 0.5
+  suddenDeathStart: 30
+  suddenDeathDamagePerSecondAtEnd: 45
+  maximumBattleTime: 60
+  suddenDeathInitialDamagePerSecond: 3
+  suddenDeathRecoveryAtEnd: 0.1

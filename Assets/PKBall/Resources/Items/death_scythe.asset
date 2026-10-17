@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: death_scythe
+  m_EditorClassIdentifier: 
+  itemId: "death_scythe"
+  displayName: "\u6b7b\u795e\u9570\u5200"
+  description: "\u602a\u7269\u7279\u8272\u88c5\u5907\uff0c\u73a9\u5bb6\u4e5f\u53ef\u88c5\u5907\u3002\u767e\u5206\u6bd4\u4e0e\u6301\u7eed\u65f6\u95f4\u4e0d\u968f\u88c5\u5907\u7b49\u7ea7\u7ffb\u500d\u3002"
+  iconId: "death_scythe"
+  generatedItemId: ""
+  kind: 0
+  rarity: 3
+  minShopDay: 3
+  shopWeight: 1
+  price: 36
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  injectionAmount: 10.0
+  productionInterval: 0
+  activationCooldown: 9
+  injectionStat: 0
+  randomPotionProducer: 0
+  effects:
+  - id: effect:0:TargetMaxHealthDamage
+    kind: 9
+    amount: 0.3333333333333333
+    growthPerActivation: 0
+    criticalChance: 0.2
+    criticalMultiplier: 2
+  tags:
+  - "\u9570\u5200"
+  - "\u7269\u7406"
+  - "\u6b7b\u795e"
+  potionLifetime: 0
+  releaseSoundId: "heavy_swing"
+  hitSoundId: "metal_hit"
+  releaseVolume: 1
+  hitVolume: 1
+  bossExclusive: 0
+  fixedLevel: 4
+  acquisition: 1
+  bossItem: 1
+  weapon: {fileID: 11400000, guid: 835d8e3612a80624dac25639c6340043, type: 2}
+  animation:
+    preset: 16
+    tint: {r: 0.85, g: 0.45, b: 1, a: 1}
+    duration: 0.9
+    scale: 1.8
+    intensity: 1.2
+    count: 3
+    showIcon: 1
+    rotation: 8

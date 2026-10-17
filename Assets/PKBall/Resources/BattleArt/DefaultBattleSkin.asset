@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9b70de3e005ba4db491159350e315d, type: 3}
+  m_Name: DefaultBattleSkin
+  m_EditorClassIdentifier: 
+  skinId: brass_courtyard
+  background: {fileID: 21300000, guid: e6924d9c156dfd94493034837ae8bc1b, type: 3}
+  arenaFloor: {fileID: 21300000, guid: 8799cd99c138d514e86a165879b2fddd, type: 3}
+  arenaRim: {fileID: 21300000, guid: d9103a2cdce40454bb73ce46214e859f, type: 3}
+  playerPanel: {fileID: 21300000, guid: b0c8708da0dda2442a35e4afdda6094f, type: 3}
+  enemyPanel: {fileID: 21300000, guid: d8e4111cc089d4c4f84ed53a0aa866e7, type: 3}
+  itemTile: {fileID: 21300000, guid: 5c158127c969895459a7ee6686ed0df4, type: 3}
+  healthFrame: {fileID: 21300000, guid: 471214425e5878740bb3dd3fbc20198e, type: 3}
+  playerHealth: {fileID: 21300000, guid: e609cfa4b201cf84e9f578d053319737, type: 3}
+  enemyHealth: {fileID: 21300000, guid: f520fb67009dfb74991c52e17ebac345, type: 3}
+  shieldFill: {fileID: 21300000, guid: a81150addc209dc4a98456d3d7a3cfc2, type: 3}
+  energyFrame: {fileID: 21300000, guid: baf2b676da9630646a76e4f7066a3eec, type: 3}
+  energyFill: {fileID: 21300000, guid: 891382e4d8852804686408da9944e141, type: 3}
+  countBadge: {fileID: 21300000, guid: b8324c9579f219f4eb27d50f69760062, type: 3}
+  titleStrip: {fileID: 21300000, guid: 848b79d30a0156340808852b2abbdad8, type: 3}
+  cyanButton: {fileID: 21300000, guid: 026e5bd8a0310b74d8cb3b85a53c8795, type: 3}
+  coralButton: {fileID: 21300000, guid: 3e6e3c24ce20f4a48802c8fa3f1925e7, type: 3}
+  interfaceAtlas: {fileID: 4343727234628468602, guid: 911bb31719cc4a0408f9cf1c06eea3a0,
+    type: 2}
+  itemAtlas: {fileID: 4343727234628468602, guid: 5db5a9b8050d24544bbef11cbcae6e32,
+    type: 2}

@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: storm_capacitor
+  m_EditorClassIdentifier: 
+  itemId: "storm_capacitor"
+  displayName: "\u96f7\u9cde\u7535\u5bb9"
+  description: "\u673a\u68b0\u9f99\u7684\u50a8\u80fd\u9cde\u7247\u3002\u5468\u671f\u76f4\u4f24\u4e0e\u83b7\u76fe\uff0c\u4e0d\u6d88\u8017\u5df2\u6709\u62a4\u76fe\uff0c\u4e0d\u9644\u5e26\u7729\u6655\u3002"
+  iconId: "arc_cannon"
+  generatedItemId: ""
+  kind: 0
+  rarity: 1
+  minShopDay: 2
+  shopWeight: 2
+  price: 16
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  injectionAmount: 10.0
+  productionInterval: 0.0
+  activationCooldown: 5
+  injectionStat: 0
+  randomPotionProducer: 0
+  effects:
+  - id: "capacitor:damage"
+    kind: 0
+    amount: 28
+    trigger: 0
+    triggerCooldown: 1
+    growthPerActivation: 0
+    levelAmounts:
+    - 28
+    - 56
+    - 112
+    - 224
+    levelGrowthAmounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    matchTag: ""
+    criticalChance: 0
+    criticalMultiplier: 2
+  - id: "capacitor:shield"
+    kind: 1
+    amount: 12
+    trigger: 0
+    triggerCooldown: 1
+    growthPerActivation: 0
+    levelAmounts:
+    - 12
+    - 24
+    - 48
+    - 96
+    levelGrowthAmounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    matchTag: ""
+    criticalChance: 0
+    criticalMultiplier: 2
+  tags:
+  - "\u7535"
+  - "\u88c5\u7f6e"
+  potionLifetime: 0
+  releaseSoundId: ""
+  hitSoundId: ""
+  releaseVolume: 1
+  hitVolume: 1
+  animation:
+    preset: 6
+    tint:
+      r: 0.4
+      g: 0.65
+      b: 1
+      a: 1
+    duration: 0.66
+    scale: 1.16
+    intensity: 1.2
+    count: 1
+    showIcon: 1
+    rotation: 8
+  acquisition: 0
+  bossItem: 0
+  bossExclusive: 0
+  fixedLevel: 0
+  weapon: {fileID: 0}

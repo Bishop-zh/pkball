@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: devourer
+  m_EditorClassIdentifier: 
+  itemId: "devourer"
+  displayName: "吞并齿轮"
+  description: "拖入装备吸收全部数值程序，无次数上限；吸收率10%/20%/50%/100%。"
+  iconId: "devourer"
+  kind: 0
+  rarity: 2
+  minShopDay: 4
+  shopWeight: 1
+  price: 65
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  weapon: {fileID: 0}
+  injectionStat: 0
+  injectionAmount: 10
+  generatedItemId: 
+  activationCooldown: 6
+  productionInterval: 0
+  randomPotionProducer: 0
+  effects: []
+  tags:
+  - "齿轮"
+  - "吸收"
+  animation:
+    preset: 14
+    tint: {r: 0.735, g: 0.4, b: 1, a: 1}
+    duration: 0.58
+    scale: 1.08
+    intensity: 1.1
+    count: 2
+    showIcon: 1
+    rotation: 0

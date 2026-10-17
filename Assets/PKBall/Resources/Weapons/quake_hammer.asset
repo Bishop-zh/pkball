@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e0217a92991c184d9f445e8ef1e1edb, type: 3}
+  m_Name: quake_hammer
+  m_EditorClassIdentifier: 
+  displayName: "\u9707\u8361\u6218\u9524"
+  kind: 0
+  cooldown: 4
+  damage: 25
+  range: 0.38
+  projectileSpeed: 12
+  meleeHalfAngle: 55
+  attackShape: 2
+  knockbackImpulse: 2.1
+  modelPrefab: {fileID: 0}
+  legendaryModelPrefab: {fileID: 0}
+  modelScale: {x: 1, y: 1, z: 1}
+  impactMultiplier: 1.15
+  modifiesImpact: 1
+  growthPerActivation: 0
+  hitDelay: 0.22
+  animationDuration: 0.5
+  prototypeColor: {r: 0.96, g: 0.54, b: 0.29, a: 1}
+  visualScale: 1
+  visualSize: 0.85
+  effectScale: 1
+  visualStyle: 3
+  visualCount: 1

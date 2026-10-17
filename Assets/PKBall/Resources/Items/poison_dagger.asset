@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: poison_dagger
+  m_EditorClassIdentifier: 
+  itemId: "poison_dagger"
+  displayName: "毒牙匕首"
+  description: "周期激活；详情显示分类与效果。"
+  iconId: "poison_dagger"
+  kind: 0
+  rarity: 1
+  price: 22
+  minShopDay: 2
+  shopWeight: 3
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  activationCooldown: 2.8
+  productionInterval: 0
+  randomPotionProducer: 0
+  effects:
+  - id: "effect:0:Poison"
+    kind: 3
+    amount: 0.25
+    growthPerActivation: 0
+    matchTag: ""
+  tags:
+  - "匕首"
+  - "物理"
+  - "毒"
+  weapon: {fileID: 11400000, guid: 5be0cc527d1f47d3b60014d1c3b43eb0, type: 2}
+  animation:
+    preset: 3
+    tint: {r: 0.65, g: 0.95, b: 1, a: 1}
+    duration: 0.5
+    scale: 1.08
+    intensity: 1
+    count: 1
+    showIcon: 1
+    rotation: -8

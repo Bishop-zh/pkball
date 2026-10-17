@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: red_duel_banner
+  m_EditorClassIdentifier: 
+  itemId: "red_duel_banner"
+  displayName: "\u8d64\u89d2\u6218\u65d7"
+  description: "\u8d64\u89d2\u6597\u517d\u7684\u6311\u6218\u65d7\u3002\u6bcf\u6b21\u91ca\u653e\u540c\u65f6\u9020\u6210\u76f4\u4f24\u5e76\u83b7\u76fe\uff0c\u4e0d\u5b58\u5728\u4f4e\u8840\u9690\u85cf\u589e\u4f24\u3002"
+  iconId: "spear"
+  generatedItemId: ""
+  kind: 0
+  rarity: 1
+  minShopDay: 2
+  shopWeight: 2
+  price: 16
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  injectionAmount: 10.0
+  productionInterval: 0.0
+  activationCooldown: 5
+  injectionStat: 0
+  randomPotionProducer: 0
+  effects:
+  - id: "banner:damage"
+    kind: 0
+    amount: 14
+    trigger: 0
+    triggerCooldown: 1
+    growthPerActivation: 0
+    levelAmounts:
+    - 14
+    - 28
+    - 56
+    - 112
+    levelGrowthAmounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    matchTag: ""
+    criticalChance: 0
+    criticalMultiplier: 2
+  - id: "banner:shield"
+    kind: 1
+    amount: 20
+    trigger: 0
+    triggerCooldown: 1
+    growthPerActivation: 0
+    levelAmounts:
+    - 20
+    - 40
+    - 80
+    - 160
+    levelGrowthAmounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    matchTag: ""
+    criticalChance: 0
+    criticalMultiplier: 2
+  tags:
+  - "\u65d7"
+  - "\u76fe"
+  potionLifetime: 0
+  releaseSoundId: ""
+  hitSoundId: ""
+  releaseVolume: 1
+  hitVolume: 1
+  animation:
+    preset: 8
+    tint:
+      r: 1
+      g: 0.35
+      b: 0.25
+      a: 1
+    duration: 0.66
+    scale: 1.16
+    intensity: 1.2
+    count: 1
+    showIcon: 1
+    rotation: 8
+  acquisition: 0
+  bossItem: 0
+  bossExclusive: 0
+  fixedLevel: 0
+  weapon: {fileID: 0}

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: swift_potion
+  m_EditorClassIdentifier: 
+  itemId: "swift_potion"
+  displayName: "迅捷药水"
+  description: "一次性使用；下一场实际战斗生效，战后清除。"
+  iconId: "speed_injector"
+  kind: 1
+  rarity: 0
+  price: 5
+  minShopDay: 1
+  shopWeight: 1
+  injectionStat: 1
+  injectionAmount: 15
+  potionLifetime: 1
+  tags:
+  - "药水"
+  - "短效"
+  animation:
+    preset: 8
+    tint: {r: 1, g: 0.84, b: 0.45, a: 1}
+    duration: 0.58
+    scale: 1.16
+    intensity: 1.1
+    count: 2
+    showIcon: 1
+    rotation: 0

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: afterburner
+  m_EditorClassIdentifier: 
+  itemId: afterburner
+  displayName: "\u63A8\u8FDB\u5668"
+  description: "\u901F\u5EA6\u4E0E\u649E\u51FB\u589E\u5E45"
+  iconId: afterburner
+  kind: 0
+  rarity: 0
+  minShopDay: 1
+  shopWeight: 3
+  price: 14
+  healthBonus: 0
+  speedBonus: 10
+  impactBonus: 0.05
+  impactTakenReduction: 0
+  weapon: {fileID: 0}
+  injectionStat: 0
+  injectionAmount: 10
+  generatedItemId: 
+  tags:
+  - "装置"
+  - "速度"
+  animation:
+    preset: 5
+    tint: {r: 0.42, g: 0.8, b: 1, a: 1}
+    duration: 0.5
+    scale: 1
+    intensity: 1
+    count: 1
+    showIcon: 1
+    rotation: -8

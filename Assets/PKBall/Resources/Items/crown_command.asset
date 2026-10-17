@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: crown_command
+  m_EditorClassIdentifier: 
+  itemId: "crown_command"
+  displayName: "\u5931\u51a0\u6555\u4ee4"
+  description: "\u5931\u51a0\u6784\u9020\u4f53\u53cd\u590d\u6267\u884c\u7684\u5b88\u57ce\u4ee4\u3002\u5468\u671f\u83b7\u76fe\u5e76\u6d88\u8017\u5f53\u524d\u76fe10%\u8f6c\u4f24\uff1b\u6309\u8bcd\u6761\u987a\u5e8f\u5148\u52a0\u76fe\u540e\u6d88\u8017\u3002"
+  iconId: "holy_bell"
+  generatedItemId: ""
+  kind: 0
+  rarity: 1
+  minShopDay: 2
+  shopWeight: 2
+  price: 16
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  injectionAmount: 10.0
+  productionInterval: 0.0
+  activationCooldown: 6
+  injectionStat: 0
+  randomPotionProducer: 0
+  effects:
+  - id: "crown:shield"
+    kind: 1
+    amount: 32
+    trigger: 0
+    triggerCooldown: 1
+    growthPerActivation: 0
+    levelAmounts:
+    - 32
+    - 64
+    - 128
+    - 256
+    levelGrowthAmounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    matchTag: ""
+    criticalChance: 0
+    criticalMultiplier: 2
+  - id: "crown:convert"
+    kind: 13
+    amount: 0.1
+    trigger: 0
+    triggerCooldown: 1
+    growthPerActivation: 0
+    levelAmounts:
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    levelGrowthAmounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    matchTag: ""
+    criticalChance: 0
+    criticalMultiplier: 2
+  tags:
+  - "\u76fe"
+  - "\u88c5\u7f6e"
+  potionLifetime: 0
+  releaseSoundId: ""
+  hitSoundId: ""
+  releaseVolume: 1
+  hitVolume: 1
+  animation:
+    preset: 8
+    tint:
+      r: 1
+      g: 0.8
+      b: 0.3
+      a: 1
+    duration: 0.66
+    scale: 1.16
+    intensity: 1.2
+    count: 1
+    showIcon: 1
+    rotation: 8
+  acquisition: 0
+  bossItem: 0
+  bossExclusive: 0
+  fixedLevel: 0
+  weapon: {fileID: 0}

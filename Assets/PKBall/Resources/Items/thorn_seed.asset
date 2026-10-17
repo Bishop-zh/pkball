@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: thorn_seed
+  m_EditorClassIdentifier: 
+  itemId: "thorn_seed"
+  displayName: "\u8346\u68d8\u79cd\u5323"
+  description: "\u56ed\u4e01\u628a\u6bd2\u79cd\u5c01\u5728\u62a4\u76fe\u91cc\u3002\u5468\u671f\u83b7\u76fe\uff1b\u7834\u76fe\u7ed9\u654c\u4eba\u53e0\u6bd2\uff0c\u72ec\u7acb\u51b7\u53743\u79d2\uff0c\u4e0d\u662f\u6bcf\u6b21\u53d7\u4f24\u53cd\u6bd2\u3002"
+  iconId: "plague_distiller"
+  generatedItemId: ""
+  kind: 0
+  rarity: 1
+  minShopDay: 2
+  shopWeight: 2
+  price: 16
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  injectionAmount: 10.0
+  productionInterval: 0.0
+  activationCooldown: 4
+  injectionStat: 0
+  randomPotionProducer: 0
+  effects:
+  - id: "thorn:shield"
+    kind: 1
+    amount: 20
+    trigger: 0
+    triggerCooldown: 1
+    growthPerActivation: 0
+    levelAmounts:
+    - 20
+    - 40
+    - 80
+    - 160
+    levelGrowthAmounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    matchTag: ""
+    criticalChance: 0
+    criticalMultiplier: 2
+  - id: "thorn:break"
+    kind: 3
+    amount: 0.2
+    trigger: 3
+    triggerCooldown: 3
+    growthPerActivation: 0
+    levelAmounts:
+    - 0.2
+    - 0.4
+    - 0.8
+    - 1.6
+    levelGrowthAmounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    matchTag: ""
+    criticalChance: 0
+    criticalMultiplier: 2
+  tags:
+  - "\u76fe"
+  - "\u6bd2"
+  potionLifetime: 0
+  releaseSoundId: ""
+  hitSoundId: ""
+  releaseVolume: 1
+  hitVolume: 1
+  animation:
+    preset: 11
+    tint:
+      r: 0.35
+      g: 0.8
+      b: 0.4
+      a: 1
+    duration: 0.66
+    scale: 1.16
+    intensity: 1.2
+    count: 1
+    showIcon: 1
+    rotation: 8
+  acquisition: 0
+  bossItem: 0
+  bossExclusive: 0
+  fixedLevel: 0
+  weapon: {fileID: 0}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c13cb5f7f114a4b4b88069d759b27f92, type: 3}
+  m_Name: monster_furnace
+  m_EditorClassIdentifier: 
+  visualId: monster_furnace
+  portrait: {fileID: 2800000, guid: 2eb03301acadabc479a5d6909d851da8, type: 3}
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  spriteScale: 0.22

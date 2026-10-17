@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: plating
+  m_EditorClassIdentifier: 
+  itemId: plating
+  displayName: "\u91CD\u578B\u88C5\u7532"
+  description: "\u63D0\u9AD8\u751F\u547D\uFF0C\u4E5F\u63D0\u9AD8\u8D28\u91CF"
+  iconId: plating
+  kind: 0
+  rarity: 0
+  minShopDay: 1
+  shopWeight: 3
+  price: 12
+  healthBonus: 12
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  weapon: {fileID: 0}
+  injectionStat: 0
+  injectionAmount: 10
+  generatedItemId: 
+  tags:
+  - "护甲"
+  - "生命"
+  animation:
+    preset: 9
+    tint: {r: 0.42, g: 0.8, b: 1, a: 1}
+    duration: 0.66
+    scale: 1
+    intensity: 1.2
+    count: 3
+    showIcon: 1
+    rotation: 8

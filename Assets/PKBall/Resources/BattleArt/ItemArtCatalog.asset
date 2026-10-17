@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c9164737b42a91439f77b9b2198a9e9, type: 3}
+  m_Name: ItemArtCatalog
+  m_EditorClassIdentifier: 
+  entries:
+  - itemId: apprentice_sword
+    displayName: "\u5B66\u5F92\u5251"
+    icon: {fileID: 21300000, guid: 34845b4d39773ae489a8d8707b2b5420, type: 3}
+    modelOverride: {fileID: 0}
+  - itemId: apprentice_shield
+    displayName: "\u5B66\u5F92\u76FE"
+    icon: {fileID: 21300000, guid: 0bc31607848aa714d97e98ae1914ad41, type: 3}
+    modelOverride: {fileID: 0}
+  - itemId: apprentice_venom
+    displayName: "\u5B66\u5F92\u6BD2\u5178"
+    icon: {fileID: 21300000, guid: bb5cac84f391a57439e6f7a0294f0d70, type: 3}
+    modelOverride: {fileID: 0}
+  - itemId: apprentice_flame
+    displayName: "\u5B66\u5F92\u706B\u706F"
+    icon: {fileID: 21300000, guid: 5c373178e2e7ec84abcc1aaccff22d00, type: 3}
+    modelOverride: {fileID: 0}
+  - itemId: apprentice_spring
+    displayName: "\u5B66\u5F92\u6CC9\u77F3"
+    icon: {fileID: 21300000, guid: 9536b0c6b41f7444dba177262521440c, type: 3}
+    modelOverride: {fileID: 0}
+  - itemId: master_sword
+    displayName: "\u5B97\u5E08\u5251"
+    icon: {fileID: 21300000, guid: 2ed96d596b0828643af747e721e25726, type: 3}
+    modelOverride: {fileID: 0}
+  - itemId: master_shield
+    displayName: "\u5B97\u5E08\u76FE"
+    icon: {fileID: 21300000, guid: 2605260d0cdd9fb46912880426551ddf, type: 3}
+    modelOverride: {fileID: 0}
+  - itemId: master_venom
+    displayName: "\u5B97\u5E08\u6BD2\u5178"
+    icon: {fileID: 21300000, guid: 77effeaac16433d449109a49f38b72ad, type: 3}
+    modelOverride: {fileID: 0}
+  - itemId: master_flame
+    displayName: "\u5B97\u5E08\u706B\u706F"
+    icon: {fileID: 21300000, guid: 33e42a692e95df64689440d9e539f390, type: 3}
+    modelOverride: {fileID: 0}
+  - itemId: master_spring
+    displayName: "\u5B97\u5E08\u6CC9\u77F3"
+    icon: {fileID: 21300000, guid: 98b6ee7c83f685547a42cfb2b5233120, type: 3}
+    modelOverride: {fileID: 0}
+  - itemId: master_token
+    displayName: "\u5B97\u5E08\u4EE4\u724C"
+    icon: {fileID: 21300000, guid: a565193acfd2ff84a968f0885a2b5719, type: 3}
+    modelOverride: {fileID: 0}
+  - itemId: random_brewer
+    displayName: "\u968F\u673A\u70BC\u836F\u91DC"
+    icon: {fileID: 21300000, guid: 351a58978ddc406499a663286032edec, type: 3}
+    modelOverride: {fileID: 0}
+  - itemId: super_injector
+    displayName: "\u8D85\u7EA7\u836F\u6C34\u6CE8\u5C04\u5668"
+    icon: {fileID: 21300000, guid: 16a78817a4cbb7646a532db493de25a1, type: 3}
+    modelOverride: {fileID: 0}
+  - itemId: poison_dagger
+    displayName: "\u6BD2\u7259\u5315\u9996"
+    icon: {fileID: 21300000, guid: 9b8d424ccdf57a045a692d52f05a1444, type: 3}
+    modelOverride: {fileID: 0}
+  - itemId: flame_axe
+    displayName: "\u7130\u950B\u65A7"
+    icon: {fileID: 21300000, guid: 33c9741f19da50345a80ce2c28a12d61, type: 3}
+    modelOverride: {fileID: 0}
+  - itemId: shield_emitter
+    displayName: "\u9EC4\u94DC\u76FE\u53D1\u751F\u5668"
+    icon: {fileID: 21300000, guid: ad034c43db6584644a6be0a6c7e35fba, type: 3}
+    modelOverride: {fileID: 0}

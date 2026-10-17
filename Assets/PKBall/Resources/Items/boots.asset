@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: boots
+  m_EditorClassIdentifier: 
+  itemId: boots
+  displayName: "\u75BE\u98CE\u8F6E"
+  description: "\u63D0\u9AD8\u901F\u5EA6\uFF1B\u76F8\u90BB\u51B2\u523A\u77DB\u65F6\u547D\u4E2D\u83B7\u5F97\u77ED\u52A0\u901F"
+  iconId: boots
+  kind: 0
+  rarity: 0
+  minShopDay: 1
+  shopWeight: 3
+  price: 10
+  healthBonus: 0
+  speedBonus: 8
+  impactBonus: 0
+  impactTakenReduction: 0
+  weapon: {fileID: 0}
+  injectionStat: 0
+  injectionAmount: 10
+  generatedItemId: 
+  tags:
+  - "轮"
+  - "速度"
+  animation:
+    preset: 7
+    tint: {r: 0.47, g: 0.95, b: 0.85, a: 1}
+    duration: 0.66
+    scale: 1
+    intensity: 1.2
+    count: 3
+    showIcon: 1
+    rotation: 8

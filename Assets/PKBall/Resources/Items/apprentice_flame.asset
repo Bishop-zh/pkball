@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: apprentice_flame
+  m_EditorClassIdentifier: 
+  itemId: "apprentice_flame"
+  displayName: "学徒火灯"
+  description: "释放时生效；成长保存在装备实例中。"
+  iconId: "apprentice_flame"
+  kind: 0
+  rarity: 1
+  price: 18
+  minShopDay: 2
+  shopWeight: 3
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  activationCooldown: 4
+  productionInterval: 0
+  randomPotionProducer: 0
+  effects:
+  - id: "effect:0:Burn"
+    kind: 4
+    amount: 3
+    growthPerActivation: 0.05
+    matchTag: ""
+    levelAmounts:
+    - 3
+    - 4.8
+    - 7.2
+    - 10.8
+    levelGrowthAmounts:
+    - 0.05
+    - 0.08
+    - 0.12
+    - 0.18
+  tags:
+  - "灯"
+  - "火"
+  - "学徒"
+  weapon: {fileID: 0}
+  animation:
+    preset: 12
+    tint: {r: 1, g: 0.32, b: 0.08, a: 1}
+    duration: 0.58
+    scale: 1.08
+    intensity: 1.1
+    count: 2
+    showIcon: 1
+    rotation: 0

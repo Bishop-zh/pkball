@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: pickaxe
+  m_EditorClassIdentifier: 
+  itemId: pickaxe
+  displayName: "\u77FF\u9550"
+  description: "\u8FD1\u6218\u547D\u4E2D\u53EF\u5728\u6218\u540E\u83B7\u5F97\u91D1\u77FF"
+  iconId: pickaxe
+  kind: 0
+  rarity: 0
+  minShopDay: 1
+  shopWeight: 3
+  price: 11
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  weapon: {fileID: 11400000, guid: d3cfab6fc5c129f4aa82c94b870098ff, type: 2}
+  injectionStat: 0
+  injectionAmount: 10
+  generatedItemId: 
+  tags:
+  - "镐"
+  - "物理"
+  - "经济"
+  animation:
+    preset: 13
+    tint: {r: 1, g: 0.83, b: 0.25, a: 1}
+    duration: 0.58
+    scale: 1.24
+    intensity: 1.1
+    count: 2
+    showIcon: 1
+    rotation: 0

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: slime_mucus
+  m_EditorClassIdentifier: 
+  itemId: "slime_mucus"
+  displayName: "\u53f2\u83b1\u59c6\u7c98\u6db2"
+  description: "\u53f2\u83b1\u59c6\u5206\u4f53\u7ec4\u7ec7\uff1a\u91ca\u653e\u65f6\u5148\u589e\u957f\u672c\u573a\u6700\u5927\u751f\u547d\uff0c\u518d\u4ee5\u81ea\u8eab\u6700\u5927\u751f\u547d\u9020\u6210\u4f24\u5bb3\u3002\u516b\u56e2\u7ec4\u5408\u9700\u6309\u6574\u5957\u7d2f\u8ba1\u6210\u957f\u6bd4\u8f83\u3002"
+  iconId: "slime_mucus"
+  generatedItemId: ""
+  kind: 0
+  rarity: 1
+  minShopDay: 1
+  shopWeight: 3
+  price: 12
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  injectionAmount: 10.0
+  productionInterval: 0
+  activationCooldown: 5
+  injectionStat: 0
+  randomPotionProducer: 0
+  effects:
+  - id: "effect:0:GrowBattleMaxHealth"
+    kind: 11
+    amount: 0.01
+    growthPerActivation: 0
+    levelAmounts:
+    - 0.01
+    - 0.013
+    - 0.016
+    - 0.02
+  - id: "effect:1:OwnMaxHealthDamage"
+    kind: 12
+    amount: 0.015
+    growthPerActivation: 0
+    levelAmounts:
+    - 0.015
+    - 0.02
+    - 0.025
+    - 0.03
+  tags:
+  - "\u7c98\u6db2"
+  - "\u6210\u957f"
+  - "\u53f2\u83b1\u59c6"
+  potionLifetime: 0
+  releaseSoundId: "poison_hit"
+  hitSoundId: "none"
+  releaseVolume: 1
+  hitVolume: 1
+  acquisition: 1
+  bossItem: 0
+  bossExclusive: 0
+  fixedLevel: 0
+  animation:
+    preset: 15
+    tint:
+      r: 0.43500000000000005
+      g: 1
+      b: 0.35
+      a: 1
+    duration: 0.58
+    scale: 1.0
+    intensity: 1.1
+    count: 2
+    showIcon: 1
+    rotation: 0
+  weapon: {fileID: 0}

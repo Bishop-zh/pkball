@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869d8c909fc20864fa959ecd8a858d9b, type: 3}
+  m_Name: furnace_bellows
+  m_EditorClassIdentifier: 
+  itemId: "furnace_bellows"
+  displayName: "\u4f59\u706b\u98ce\u7bb1"
+  description: "\u7194\u7089\u5de8\u7075\u7559\u4e0b\u7684\u98ce\u7bb1\u3002\u6bcf\u6b21\u91ca\u653e\u4e3a\u654c\u4eba\u52a0\u706b\u5e76\u4e3a\u81ea\u5df1\u83b7\u76fe\uff1b\u706b\u4e0d\u662f\u6301\u7eed\u56fa\u5b9a\u79d2\u4f24\u3002"
+  iconId: "furnace_armor"
+  generatedItemId: ""
+  kind: 0
+  rarity: 1
+  minShopDay: 2
+  shopWeight: 2
+  price: 16
+  healthBonus: 0
+  speedBonus: 0
+  impactBonus: 0
+  impactTakenReduction: 0
+  injectionAmount: 10.0
+  productionInterval: 0.0
+  activationCooldown: 5
+  injectionStat: 0
+  randomPotionProducer: 0
+  effects:
+  - id: "bellows:burn"
+    kind: 4
+    amount: 3
+    trigger: 0
+    triggerCooldown: 1
+    growthPerActivation: 0
+    levelAmounts:
+    - 3
+    - 4.8
+    - 7.2
+    - 10.8
+    levelGrowthAmounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    matchTag: ""
+    criticalChance: 0
+    criticalMultiplier: 2
+  - id: "bellows:shield"
+    kind: 1
+    amount: 16
+    trigger: 0
+    triggerCooldown: 1
+    growthPerActivation: 0
+    levelAmounts:
+    - 16
+    - 32
+    - 64
+    - 128
+    levelGrowthAmounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    matchTag: ""
+    criticalChance: 0
+    criticalMultiplier: 2
+  tags:
+  - "\u706b"
+  - "\u88c5\u7f6e"
+  potionLifetime: 0
+  releaseSoundId: ""
+  hitSoundId: ""
+  releaseVolume: 1
+  hitVolume: 1
+  animation:
+    preset: 12
+    tint:
+      r: 1
+      g: 0.45
+      b: 0.15
+      a: 1
+    duration: 0.66
+    scale: 1.16
+    intensity: 1.2
+    count: 1
+    showIcon: 1
+    rotation: 8
+  acquisition: 0
+  bossItem: 0
+  bossExclusive: 0
+  fixedLevel: 0
+  weapon: {fileID: 0}

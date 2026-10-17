@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e0217a92991c184d9f445e8ef1e1edb, type: 3}
+  m_Name: PoisonDagger
+  m_EditorClassIdentifier: 
+  displayName: "毒牙匕首"
+  kind: 0
+  cooldown: 2.8
+  damage: 14
+  range: 0.5
+  projectileSpeed: 14
+  meleeHalfAngle: 180
+  attackShape: 0
+  knockbackImpulse: 0.3
+  growthPerActivation: 0
+  hitDelay: 0.14
+  animationDuration: 0.34

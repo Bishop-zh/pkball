@@ -1,0 +1,274 @@
+[
+  {
+    "id": "apprentice_sword",
+    "path": "Assets/PKBall/Resources/BattleArt/Items/apprentice_sword.png",
+    "size": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "apprentice_shield",
+    "path": "Assets/PKBall/Resources/BattleArt/Items/apprentice_shield.png",
+    "size": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "apprentice_venom",
+    "path": "Assets/PKBall/Resources/BattleArt/Items/apprentice_venom.png",
+    "size": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "apprentice_flame",
+    "path": "Assets/PKBall/Resources/BattleArt/Items/apprentice_flame.png",
+    "size": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "apprentice_spring",
+    "path": "Assets/PKBall/Resources/BattleArt/Items/apprentice_spring.png",
+    "size": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "master_sword",
+    "path": "Assets/PKBall/Resources/BattleArt/Items/master_sword.png",
+    "size": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "master_shield",
+    "path": "Assets/PKBall/Resources/BattleArt/Items/master_shield.png",
+    "size": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "master_venom",
+    "path": "Assets/PKBall/Resources/BattleArt/Items/master_venom.png",
+    "size": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "master_flame",
+    "path": "Assets/PKBall/Resources/BattleArt/Items/master_flame.png",
+    "size": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "master_spring",
+    "path": "Assets/PKBall/Resources/BattleArt/Items/master_spring.png",
+    "size": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "master_token",
+    "path": "Assets/PKBall/Resources/BattleArt/Items/master_token.png",
+    "size": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "random_brewer",
+    "path": "Assets/PKBall/Resources/BattleArt/Items/random_brewer.png",
+    "size": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "super_injector",
+    "path": "Assets/PKBall/Resources/BattleArt/Items/super_injector.png",
+    "size": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "poison_dagger",
+    "path": "Assets/PKBall/Resources/BattleArt/Items/poison_dagger.png",
+    "size": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "flame_axe",
+    "path": "Assets/PKBall/Resources/BattleArt/Items/flame_axe.png",
+    "size": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "shield_emitter",
+    "path": "Assets/PKBall/Resources/BattleArt/Items/shield_emitter.png",
+    "size": [
+      256,
+      256
+    ]
+  },
+  {
+    "id": "player_panel",
+    "path": "Assets/PKBall/Resources/BattleArt/UI/player_panel.png",
+    "size": [
+      200,
+      354
+    ]
+  },
+  {
+    "id": "enemy_panel",
+    "path": "Assets/PKBall/Resources/BattleArt/UI/enemy_panel.png",
+    "size": [
+      198,
+      354
+    ]
+  },
+  {
+    "id": "item_tile",
+    "path": "Assets/PKBall/Resources/BattleArt/UI/item_tile.png",
+    "size": [
+      263,
+      254
+    ]
+  },
+  {
+    "id": "cooldown_surface",
+    "path": "Assets/PKBall/Resources/BattleArt/UI/cooldown_surface.png",
+    "size": [
+      256,
+      251
+    ]
+  },
+  {
+    "id": "health_frame",
+    "path": "Assets/PKBall/Resources/BattleArt/UI/health_frame.png",
+    "size": [
+      337,
+      98
+    ]
+  },
+  {
+    "id": "health_player",
+    "path": "Assets/PKBall/Resources/BattleArt/UI/health_player.png",
+    "size": [
+      271,
+      68
+    ]
+  },
+  {
+    "id": "health_enemy",
+    "path": "Assets/PKBall/Resources/BattleArt/UI/health_enemy.png",
+    "size": [
+      302,
+      69
+    ]
+  },
+  {
+    "id": "shield_fill",
+    "path": "Assets/PKBall/Resources/BattleArt/UI/shield_fill.png",
+    "size": [
+      275,
+      69
+    ]
+  },
+  {
+    "id": "energy_frame",
+    "path": "Assets/PKBall/Resources/BattleArt/UI/energy_frame.png",
+    "size": [
+      311,
+      68
+    ]
+  },
+  {
+    "id": "energy_fill",
+    "path": "Assets/PKBall/Resources/BattleArt/UI/energy_fill.png",
+    "size": [
+      267,
+      51
+    ]
+  },
+  {
+    "id": "count_badge",
+    "path": "Assets/PKBall/Resources/BattleArt/UI/count_badge.png",
+    "size": [
+      220,
+      98
+    ]
+  },
+  {
+    "id": "title_strip",
+    "path": "Assets/PKBall/Resources/BattleArt/UI/title_strip.png",
+    "size": [
+      372,
+      89
+    ]
+  },
+  {
+    "id": "button_cyan",
+    "path": "Assets/PKBall/Resources/BattleArt/UI/button_cyan.png",
+    "size": [
+      270,
+      122
+    ]
+  },
+  {
+    "id": "button_coral",
+    "path": "Assets/PKBall/Resources/BattleArt/UI/button_coral.png",
+    "size": [
+      268,
+      122
+    ]
+  },
+  {
+    "id": "status_shield",
+    "path": "Assets/PKBall/Resources/BattleArt/UI/status_shield.png",
+    "size": [
+      186,
+      221
+    ]
+  },
+  {
+    "id": "status_heal",
+    "path": "Assets/PKBall/Resources/BattleArt/UI/status_heal.png",
+    "size": [
+      238,
+      220
+    ]
+  },
+  {
+    "id": "arena_floor",
+    "path": "Assets/PKBall/Resources/BattleArt/Arena/arena_floor.png",
+    "size": [
+      812,
+      808
+    ]
+  },
+  {
+    "id": "arena_rim",
+    "path": "Assets/PKBall/Resources/BattleArt/Arena/arena_rim.png",
+    "size": [
+      805,
+      799
+    ]
+  }
+]

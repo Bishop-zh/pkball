@@ -1,0 +1,70 @@
+{
+  "sounds": [
+    {
+      "id": "sword_swing",
+      "displayName": "刀剑挥击",
+      "phase": "release",
+      "volume": 0.55
+    },
+    {
+      "id": "heavy_swing",
+      "displayName": "重锤挥击",
+      "phase": "release",
+      "volume": 0.55
+    },
+    {
+      "id": "arrow_fire",
+      "displayName": "弓弩发射",
+      "phase": "release",
+      "volume": 0.55
+    },
+    {
+      "id": "gun_fire",
+      "displayName": "轻型射击",
+      "phase": "release",
+      "volume": 0.55
+    },
+    {
+      "id": "cannon_fire",
+      "displayName": "炮弹发射",
+      "phase": "release",
+      "volume": 0.55
+    },
+    {
+      "id": "laser_fire",
+      "displayName": "激光发射",
+      "phase": "release",
+      "volume": 0.55
+    },
+    {
+      "id": "metal_hit",
+      "displayName": "金属命中",
+      "phase": "hit",
+      "volume": 0.55
+    },
+    {
+      "id": "poison_hit",
+      "displayName": "毒液飞溅",
+      "phase": "both",
+      "volume": 0.55
+    },
+    {
+      "id": "fire_hit",
+      "displayName": "火焰灼烧",
+      "phase": "both",
+      "volume": 0.55
+    },
+    {
+      "id": "shield_gain",
+      "displayName": "护盾共鸣",
+      "phase": "both",
+      "volume": 0.55
+    },
+    {
+      "id": "heal_chime",
+      "displayName": "治疗铃音",
+      "phase": "both",
+      "volume": 0.55
+    }
+  ]
+}
