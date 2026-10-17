@@ -1,0 +1,12 @@
+{
+  "title": "PKBall",
+  "subtitle": "弹珠决斗与肉鸽构筑",
+  "anchor": "pkball",
+  "controls": "冒险：商店 / 背包 / 装备环 → 战斗中拖动鼠标弹射。主播模式：配置双方 → 开始单挑，可变速与重播。",
+  "mode": "单机原型 · 本地模拟对手",
+  "slug": "pkball",
+  "loader": "Build/pkball.loader.js",
+  "dataUrl": "Build/pkball.data.unityweb",
+  "frameworkUrl": "Build/pkball.framework.js.unityweb",
+  "codeUrl": "Build/pkball.wasm.unityweb"
+}
