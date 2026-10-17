@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 namespace PKBall.Prototype
@@ -53,7 +53,7 @@ namespace PKBall.Prototype
             burnFrames=new[]{PrototypeUiSkin.SpriteFor("StatusFx/burn_0"),PrototypeUiSkin.SpriteFor("StatusFx/burn_1"),PrototypeUiSkin.SpriteFor("StatusFx/burn_2"),PrototypeUiSkin.SpriteFor("StatusFx/burn_3")};
             shieldFrames=new[]{PrototypeUiSkin.SpriteFor("StatusFx/shield_0"),PrototypeUiSkin.SpriteFor("StatusFx/shield_1"),PrototypeUiSkin.SpriteFor("StatusFx/shield_2"),PrototypeUiSkin.SpriteFor("StatusFx/shield_3")};
             for(int i=0;i<24;i++){var go=new GameObject("PooledHit_"+i);go.transform.SetParent(transform,false);var line=go.AddComponent<LineRenderer>();line.sharedMaterial=LineMaterial;line.useWorldSpace=true;line.loop=true;line.positionCount=16;line.sortingOrder=25;go.SetActive(false);hits.Add(new HitFlash {line=line});}
-            var font=Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+            var font=PrototypeFont.Default;
             var root=new GameObject("PooledCombatNumbers",typeof(RectTransform),typeof(Canvas)); root.transform.SetParent(transform,false);
             var canvas=root.GetComponent<Canvas>(); canvas.renderMode=RenderMode.WorldSpace; canvas.sortingOrder=30;
             root.transform.rotation=Quaternion.Euler(90,0,0); root.transform.position=new Vector3(0,1.6f,0); root.transform.localScale=Vector3.one*.01f;

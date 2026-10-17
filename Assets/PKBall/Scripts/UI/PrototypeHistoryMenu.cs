@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -89,7 +89,7 @@ namespace PKBall.Prototype
         }
         private static Text Label(string name,Transform parent,Vector2 point,Vector2 size,int fontSize)
         {
-            var r=Rect(name,parent,point,size);var t=r.gameObject.AddComponent<Text>();t.font=Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+            var r=Rect(name,parent,point,size);var t=r.gameObject.AddComponent<Text>();t.font=PrototypeFont.Default;
             t.fontSize=fontSize;t.color=new Color(1,.96f,.82f);t.alignment=TextAnchor.UpperLeft;t.raycastTarget=false;return t;
         }
         private static Button MakeButton(string name,Transform parent,Vector2 point,Vector2 size,string caption)

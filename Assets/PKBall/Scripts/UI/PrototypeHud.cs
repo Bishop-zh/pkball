@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
@@ -44,7 +44,7 @@ namespace PKBall.Prototype
                 }
                 Refresh(); return;
             }
-            font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+            font = PrototypeFont.Default;
             if (FindObjectOfType<EventSystem>() == null)
             {
                 GameObject events = new GameObject("PrototypeEventSystem");

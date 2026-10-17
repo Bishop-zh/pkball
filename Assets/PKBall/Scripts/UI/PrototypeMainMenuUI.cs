@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -35,7 +35,7 @@ namespace PKBall.Prototype
         {
             battle = owner;
             if (canvasRoot != null) { BindSavedView(); BuildHistoryView(); historyMenu.Bind(battle); BindBroadcast(); Refresh(); return; }
-            font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+            font = PrototypeFont.Default;
             if (FindObjectOfType<EventSystem>() == null)
             {
                 var events = new GameObject("MainMenuEventSystem", typeof(EventSystem), typeof(StandaloneInputModule));

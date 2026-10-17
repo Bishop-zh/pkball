@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
@@ -71,7 +71,7 @@ namespace PKBall.Prototype
         {
             battle = owner; run = state;BindInteractionFeedback();
             if (canvas != null) { BindSavedView(); Refresh(); return; }
-            font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+            font = PrototypeFont.Default;
             GameObject root = new GameObject("PreparationCanvas", typeof(RectTransform), typeof(Canvas),
                 typeof(CanvasScaler), typeof(GraphicRaycaster));
             root.transform.SetParent(transform, false);

@@ -425,7 +425,7 @@ namespace PKBall.Prototype
         }
         private static Text Label(Transform parent,string value,float x,float y,float w,float h,int size=22)
         {
-            var image=Box(parent,"Label",x,y,w,h,Color.clear);var go=image.gameObject;DestroyImmediate(image);var t=go.AddComponent<Text>();t.font=Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");t.fontSize=size;t.color=new Color(1,.96f,.84f);t.text=value;t.alignment=TextAnchor.MiddleLeft;t.raycastTarget=false;return t;
+            var image=Box(parent,"Label",x,y,w,h,Color.clear);var go=image.gameObject;DestroyImmediate(image);var t=go.AddComponent<Text>();t.font=PrototypeFont.Default;t.fontSize=size;t.color=new Color(1,.96f,.84f);t.text=value;t.alignment=TextAnchor.MiddleLeft;t.raycastTarget=false;return t;
         }
         private static Button ButtonAt(Transform p,string caption,float x,float y,float w,float h){var image=Box(p,caption,x,y,w,h,new Color(.09f,.25f,.34f));var b=image.gameObject.AddComponent<Button>();b.targetGraphic=image;Label(image.transform,caption,16,0,w-32,h,24).alignment=TextAnchor.MiddleCenter;return b;}
         private static InputField Field(Transform p,string caption,float x,float y,string value,float w)
